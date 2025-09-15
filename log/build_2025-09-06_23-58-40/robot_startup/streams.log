@@ -1,0 +1,22 @@
+[0.673s] Invoking command in '/home/lin/train2/src/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/robot_startup -- -j8 -l8
+[0.735s] Invoked command in '/home/lin/train2/src/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/robot_startup -- -j8 -l8
+[0.747s] Invoking command in '/home/lin/train2/src/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/robot_startup
+[0.756s] -- Install configuration: ""
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/launch
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/launch/example_action.launch.py
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/path.sh
+[0.759s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/path.dsv
+[0.760s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.bash
+[0.760s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.sh
+[0.760s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.zsh
+[0.761s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.dsv
+[0.761s] -- Installing: /home/lin/train2/src/install/robot_startup/share/robot_startup/package.dsv
+[0.763s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+[0.763s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+[0.763s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+[0.764s] -- Up-to-date: /home/lin/train2/src/install/robot_startup/share/robot_startup/package.xml
+[0.768s] Invoked command in '/home/lin/train2/src/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/robot_startup

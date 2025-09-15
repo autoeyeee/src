@@ -1,0 +1,92 @@
+[0.042s] Invoking command in '/home/lin/train2/src/build/example_cpp': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble /usr/local/bin/cmake /home/lin/train2/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/example_cpp
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.375s] -- The CXX compiler identification is GNU 11.4.0
+[0.427s] -- Detecting C compiler ABI info
+[0.689s] -- Detecting C compiler ABI info - done
+[0.707s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.708s] -- Detecting C compile features
+[0.708s] -- Detecting C compile features - done
+[0.743s] -- Detecting CXX compiler ABI info
+[1.037s] -- Detecting CXX compiler ABI info - done
+[1.050s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.052s] -- Detecting CXX compile features
+[1.053s] -- Detecting CXX compile features - done
+[1.063s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.644s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.771s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.790s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.816s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.026s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.033s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.399s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.510s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.535s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.765s] -- Found Threads: TRUE  
+[2.890s] -- Found example_ros2_interfaces: 0.0.0 (/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake)
+[2.966s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.129s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.129s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lin/train2/src/example_cpp/include>
+[3.129s] -- Configured cppcheck exclude dirs and/or files: 
+[3.132s] -- Added test 'lint_cmake' to check CMake code style
+[3.136s] -- Added test 'uncrustify' to check C / C++ code style
+[3.136s] -- Configured uncrustify additional arguments: 
+[3.138s] -- Added test 'xmllint' to check XML markup files
+[3.142s] -- Configuring done (3.1s)
+[3.220s] -- Generating done (0.1s)
+[3.234s] -- Build files have been written to: /home/lin/train2/src/build/example_cpp
+[3.259s] Invoked command in '/home/lin/train2/src/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble /usr/local/bin/cmake /home/lin/train2/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/example_cpp
+[3.260s] Invoking command in '/home/lin/train2/src/build/example_cpp': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/example_cpp -- -j8 -l8
+[3.361s] [  8%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/cpp.cpp.o[0m
+[3.364s] [ 16%] [32mBuilding CXX object CMakeFiles/node_03.dir/src/node_03.cpp.o[0m
+[3.366s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/publisher.cpp.o[0m
+[3.380s] [ 33%] [32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o[0m
+[3.391s] [ 41%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/subscrib.cpp.o[0m
+[3.403s] [ 50%] [32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o[0m
+[12.834s] [ 58%] [32m[1mLinking CXX executable node_03[0m
+[13.056s] [ 66%] [32m[1mLinking CXX executable node_01[0m
+[13.284s] [ 66%] Built target node_03
+[13.472s] [ 66%] Built target node_01
+[15.243s] [ 75%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[15.741s] [ 75%] Built target topic_publisher_01
+[16.680s] [ 83%] [32m[1mLinking CXX executable example_interfaces_robot_01[0m
+[17.293s] [ 83%] Built target example_interfaces_robot_01
+[20.421s] [ 91%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[21.301s] [ 91%] Built target topic_subscribe_01
+[21.796s] [100%] [32m[1mLinking CXX executable example_interfaces_control_01[0m
+[22.721s] [100%] Built target example_interfaces_control_01
+[22.741s] Invoked command in '/home/lin/train2/src/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/example_cpp -- -j8 -l8
+[22.751s] Invoking command in '/home/lin/train2/src/build/example_cpp': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/example_cpp
+[22.759s] -- Install configuration: ""
+[22.761s] -- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01
+[22.775s] -- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01" to ""
+[22.776s] -- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01
+[22.804s] -- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01" to ""
+[22.804s] -- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[22.805s] -- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[22.805s] -- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[22.806s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[22.806s] -- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.sh
+[22.807s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.dsv
+[22.808s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.bash
+[22.808s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.sh
+[22.809s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.zsh
+[22.809s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.dsv
+[22.809s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.dsv
+[22.809s] -- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[22.810s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[22.810s] -- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[22.810s] -- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.xml
+[22.812s] -- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01
+[22.817s] -- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01" to ""
+[22.817s] -- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03
+[22.821s] -- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03" to ""
+[22.823s] -- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01
+[22.831s] -- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01" to ""
+[22.833s] -- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01
+[22.849s] -- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01" to ""
+[22.852s] Invoked command in '/home/lin/train2/src/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/example_cpp

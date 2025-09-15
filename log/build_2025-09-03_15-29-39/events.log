@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.001898] (-) JobUnselected: {'identifier': 'example_py'}
+[0.001979] (-) JobUnselected: {'identifier': 'example_ros2_interfaces'}
+[0.002048] (-) JobUnselected: {'identifier': 'robot_startup'}
+[0.002138] (example_cpp) JobQueued: {'identifier': 'example_cpp', 'dependencies': OrderedDict([('example_ros2_interfaces', '/home/lin/train2/src/install/example_ros2_interfaces')])}
+[0.002377] (example_cpp) JobStarted: {'identifier': 'example_cpp'}
+[0.037096] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'cmake'}
+[0.038113] (example_cpp) Command: {'cmd': ['/usr/local/bin/cmake', '/home/lin/train2/src/example_cpp', '-DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/example_cpp'], 'cwd': '/home/lin/train2/src/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lin/train2/src/install/example_ros2_interfaces/lib:/home/lin/train2/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lin/train2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1807'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fd2b17185ebf6a12d57065468b6f12c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/train2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1807,unix/lin-virtual-machine:/tmp/.ICE-unix/1807'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c04f2e1_6e9d_48ca_87e1_fb38b12c5ce7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WPVBC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9f05dfb0a7.sock'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/install/example_py:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/example_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fd2b17185ebf6a12d57065468b6f12c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/home/lin/train2/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble')]), 'shell': False}
+[0.100407] (-) TimerEvent: {}
+[0.196744] (example_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200740] (-) TimerEvent: {}
+[0.301372] (-) TimerEvent: {}
+[0.377221] (example_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.401742] (-) TimerEvent: {}
+[0.429740] (example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502051] (-) TimerEvent: {}
+[0.602704] (-) TimerEvent: {}
+[0.690991] (example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.703007] (-) TimerEvent: {}
+[0.709212] (example_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.710369] (example_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.710593] (example_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.744756] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.804430] (-) TimerEvent: {}
+[0.905004] (-) TimerEvent: {}
+[1.006260] (-) TimerEvent: {}
+[1.039527] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.052720] (example_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.054705] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.054909] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.064922] (example_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.106613] (-) TimerEvent: {}
+[1.208232] (-) TimerEvent: {}
+[1.309719] (-) TimerEvent: {}
+[1.410797] (-) TimerEvent: {}
+[1.432658] (example_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.511394] (-) TimerEvent: {}
+[1.611868] (-) TimerEvent: {}
+[1.646587] (example_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.712129] (-) TimerEvent: {}
+[1.773226] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.791926] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.812527] (-) TimerEvent: {}
+[1.818038] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.855150] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.901854] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.912747] (-) TimerEvent: {}
+[2.013680] (-) TimerEvent: {}
+[2.028548] (example_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.035017] (example_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.113973] (-) TimerEvent: {}
+[2.215126] (-) TimerEvent: {}
+[2.316149] (-) TimerEvent: {}
+[2.338420] (example_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.401051] (example_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.416784] (-) TimerEvent: {}
+[2.512337] (example_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.518007] (-) TimerEvent: {}
+[2.537000] (example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.618546] (-) TimerEvent: {}
+[2.722585] (-) TimerEvent: {}
+[2.760089] (example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.767086] (example_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.822979] (-) TimerEvent: {}
+[2.892573] (example_cpp) StdoutLine: {'line': b'-- Found example_ros2_interfaces: 0.0.0 (/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake)\n'}
+[2.923373] (-) TimerEvent: {}
+[2.968167] (example_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.024069] (-) TimerEvent: {}
+[3.124779] (-) TimerEvent: {}
+[3.131153] (example_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.131709] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lin/train2/src/example_cpp/include>\n'}
+[3.131858] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.134343] (example_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.138245] (example_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.138459] (example_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.140321] (example_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.144581] (example_cpp) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.222606] (example_cpp) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.225030] (-) TimerEvent: {}
+[3.236577] (example_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/lin/train2/src/build/example_cpp\n'}
+[3.260916] (example_cpp) CommandEnded: {'returncode': 0}
+[3.261936] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'build'}
+[3.262089] (example_cpp) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/lin/train2/src/build/example_cpp', '--', '-j8', '-l8'], 'cwd': '/home/lin/train2/src/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lin/train2/src/install/example_ros2_interfaces/lib:/home/lin/train2/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lin/train2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1807'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fd2b17185ebf6a12d57065468b6f12c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/train2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1807,unix/lin-virtual-machine:/tmp/.ICE-unix/1807'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c04f2e1_6e9d_48ca_87e1_fb38b12c5ce7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WPVBC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9f05dfb0a7.sock'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/install/example_py:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/example_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fd2b17185ebf6a12d57065468b6f12c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/home/lin/train2/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble')]), 'shell': False}
+[3.326170] (-) TimerEvent: {}
+[3.363183] (example_cpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/node_01.dir/src/cpp.cpp.o\x1b[0m\n'}
+[3.365914] (example_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/node_03.dir/src/node_03.cpp.o\x1b[0m\n'}
+[3.367886] (example_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.382530] (example_cpp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o\x1b[0m\n'}
+[3.393703] (example_cpp) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/subscrib.cpp.o\x1b[0m\n'}
+[3.405658] (example_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o\x1b[0m\n'}
+[3.427392] (-) TimerEvent: {}
+[3.528031] (-) TimerEvent: {}
+[3.628728] (-) TimerEvent: {}
+[3.730706] (-) TimerEvent: {}
+[3.831722] (-) TimerEvent: {}
+[3.933768] (-) TimerEvent: {}
+[4.040607] (-) TimerEvent: {}
+[4.143506] (-) TimerEvent: {}
+[4.245575] (-) TimerEvent: {}
+[4.348238] (-) TimerEvent: {}
+[4.449573] (-) TimerEvent: {}
+[4.556177] (-) TimerEvent: {}
+[4.657419] (-) TimerEvent: {}
+[4.757901] (-) TimerEvent: {}
+[4.859080] (-) TimerEvent: {}
+[4.963147] (-) TimerEvent: {}
+[5.065098] (-) TimerEvent: {}
+[5.172100] (-) TimerEvent: {}
+[5.273969] (-) TimerEvent: {}
+[5.378929] (-) TimerEvent: {}
+[5.480019] (-) TimerEvent: {}
+[5.584683] (-) TimerEvent: {}
+[5.689420] (-) TimerEvent: {}
+[5.791344] (-) TimerEvent: {}
+[5.893187] (-) TimerEvent: {}
+[5.995017] (-) TimerEvent: {}
+[6.101423] (-) TimerEvent: {}
+[6.204601] (-) TimerEvent: {}
+[6.306122] (-) TimerEvent: {}
+[6.408735] (-) TimerEvent: {}
+[6.511884] (-) TimerEvent: {}
+[6.619168] (-) TimerEvent: {}
+[6.720808] (-) TimerEvent: {}
+[6.821872] (-) TimerEvent: {}
+[6.922859] (-) TimerEvent: {}
+[7.023796] (-) TimerEvent: {}
+[7.124679] (-) TimerEvent: {}
+[7.226474] (-) TimerEvent: {}
+[7.329001] (-) TimerEvent: {}
+[7.429544] (-) TimerEvent: {}
+[7.531019] (-) TimerEvent: {}
+[7.632722] (-) TimerEvent: {}
+[7.739235] (-) TimerEvent: {}
+[7.840201] (-) TimerEvent: {}
+[7.940722] (-) TimerEvent: {}
+[8.044713] (-) TimerEvent: {}
+[8.147808] (-) TimerEvent: {}
+[8.250674] (-) TimerEvent: {}
+[8.356130] (-) TimerEvent: {}
+[8.459966] (-) TimerEvent: {}
+[8.562150] (-) TimerEvent: {}
+[8.664540] (-) TimerEvent: {}
+[8.767092] (-) TimerEvent: {}
+[8.873013] (-) TimerEvent: {}
+[8.974753] (-) TimerEvent: {}
+[9.076725] (-) TimerEvent: {}
+[9.181511] (-) TimerEvent: {}
+[9.281993] (-) TimerEvent: {}
+[9.387991] (-) TimerEvent: {}
+[9.493482] (-) TimerEvent: {}
+[9.594094] (-) TimerEvent: {}
+[9.695614] (-) TimerEvent: {}
+[9.797789] (-) TimerEvent: {}
+[9.899666] (-) TimerEvent: {}
+[10.003578] (-) TimerEvent: {}
+[10.106819] (-) TimerEvent: {}
+[10.210640] (-) TimerEvent: {}
+[10.311819] (-) TimerEvent: {}
+[10.413983] (-) TimerEvent: {}
+[10.516627] (-) TimerEvent: {}
+[10.618449] (-) TimerEvent: {}
+[10.722607] (-) TimerEvent: {}
+[10.824718] (-) TimerEvent: {}
+[10.930640] (-) TimerEvent: {}
+[11.031785] (-) TimerEvent: {}
+[11.133863] (-) TimerEvent: {}
+[11.234552] (-) TimerEvent: {}
+[11.336736] (-) TimerEvent: {}
+[11.437230] (-) TimerEvent: {}
+[11.538201] (-) TimerEvent: {}
+[11.641409] (-) TimerEvent: {}
+[11.742225] (-) TimerEvent: {}
+[11.845819] (-) TimerEvent: {}
+[11.946585] (-) TimerEvent: {}
+[12.047330] (-) TimerEvent: {}
+[12.148160] (-) TimerEvent: {}
+[12.249746] (-) TimerEvent: {}
+[12.352598] (-) TimerEvent: {}
+[12.453743] (-) TimerEvent: {}
+[12.555126] (-) TimerEvent: {}
+[12.659116] (-) TimerEvent: {}
+[12.759861] (-) TimerEvent: {}
+[12.835584] (example_cpp) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable node_03\x1b[0m\n'}
+[12.862156] (-) TimerEvent: {}
+[12.962687] (-) TimerEvent: {}
+[13.058413] (example_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable node_01\x1b[0m\n'}
+[13.062908] (-) TimerEvent: {}
+[13.163425] (-) TimerEvent: {}
+[13.265027] (-) TimerEvent: {}
+[13.286580] (example_cpp) StdoutLine: {'line': b'[ 66%] Built target node_03\n'}
+[13.365224] (-) TimerEvent: {}
+[13.465995] (-) TimerEvent: {}
+[13.473912] (example_cpp) StdoutLine: {'line': b'[ 66%] Built target node_01\n'}
+[13.566617] (-) TimerEvent: {}
+[13.667513] (-) TimerEvent: {}
+[13.769410] (-) TimerEvent: {}
+[13.869925] (-) TimerEvent: {}
+[13.970685] (-) TimerEvent: {}
+[14.071577] (-) TimerEvent: {}
+[14.172664] (-) TimerEvent: {}
+[14.275335] (-) TimerEvent: {}
+[14.377176] (-) TimerEvent: {}
+[14.478911] (-) TimerEvent: {}
+[14.581024] (-) TimerEvent: {}
+[14.682353] (-) TimerEvent: {}
+[14.783604] (-) TimerEvent: {}
+[14.885578] (-) TimerEvent: {}
+[14.990120] (-) TimerEvent: {}
+[15.090740] (-) TimerEvent: {}
+[15.193071] (-) TimerEvent: {}
+[15.245464] (example_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable topic_publisher_01\x1b[0m\n'}
+[15.293566] (-) TimerEvent: {}
+[15.394419] (-) TimerEvent: {}
+[15.495548] (-) TimerEvent: {}
+[15.597132] (-) TimerEvent: {}
+[15.699015] (-) TimerEvent: {}
+[15.743040] (example_cpp) StdoutLine: {'line': b'[ 75%] Built target topic_publisher_01\n'}
+[15.799718] (-) TimerEvent: {}
+[15.903629] (-) TimerEvent: {}
+[16.005690] (-) TimerEvent: {}
+[16.107882] (-) TimerEvent: {}
+[16.210450] (-) TimerEvent: {}
+[16.311345] (-) TimerEvent: {}
+[16.411950] (-) TimerEvent: {}
+[16.515755] (-) TimerEvent: {}
+[16.616586] (-) TimerEvent: {}
+[16.682582] (example_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable example_interfaces_robot_01\x1b[0m\n'}
+[16.717400] (-) TimerEvent: {}
+[16.818539] (-) TimerEvent: {}
+[16.921799] (-) TimerEvent: {}
+[17.022681] (-) TimerEvent: {}
+[17.123431] (-) TimerEvent: {}
+[17.224339] (-) TimerEvent: {}
+[17.294807] (example_cpp) StdoutLine: {'line': b'[ 83%] Built target example_interfaces_robot_01\n'}
+[17.324628] (-) TimerEvent: {}
+[17.428143] (-) TimerEvent: {}
+[17.529796] (-) TimerEvent: {}
+[17.630751] (-) TimerEvent: {}
+[17.732331] (-) TimerEvent: {}
+[17.833031] (-) TimerEvent: {}
+[17.933713] (-) TimerEvent: {}
+[18.034566] (-) TimerEvent: {}
+[18.135681] (-) TimerEvent: {}
+[18.236921] (-) TimerEvent: {}
+[18.339963] (-) TimerEvent: {}
+[18.440725] (-) TimerEvent: {}
+[18.542259] (-) TimerEvent: {}
+[18.643033] (-) TimerEvent: {}
+[18.744214] (-) TimerEvent: {}
+[18.846146] (-) TimerEvent: {}
+[18.948584] (-) TimerEvent: {}
+[19.049536] (-) TimerEvent: {}
+[19.150433] (-) TimerEvent: {}
+[19.252006] (-) TimerEvent: {}
+[19.355119] (-) TimerEvent: {}
+[19.458062] (-) TimerEvent: {}
+[19.561515] (-) TimerEvent: {}
+[19.661997] (-) TimerEvent: {}
+[19.763785] (-) TimerEvent: {}
+[19.864766] (-) TimerEvent: {}
+[19.966247] (-) TimerEvent: {}
+[20.067433] (-) TimerEvent: {}
+[20.168631] (-) TimerEvent: {}
+[20.269792] (-) TimerEvent: {}
+[20.372010] (-) TimerEvent: {}
+[20.423434] (example_cpp) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable topic_subscribe_01\x1b[0m\n'}
+[20.472978] (-) TimerEvent: {}
+[20.574901] (-) TimerEvent: {}
+[20.675690] (-) TimerEvent: {}
+[20.776817] (-) TimerEvent: {}
+[20.877577] (-) TimerEvent: {}
+[20.978461] (-) TimerEvent: {}
+[21.080063] (-) TimerEvent: {}
+[21.182623] (-) TimerEvent: {}
+[21.283957] (-) TimerEvent: {}
+[21.303104] (example_cpp) StdoutLine: {'line': b'[ 91%] Built target topic_subscribe_01\n'}
+[21.384636] (-) TimerEvent: {}
+[21.486695] (-) TimerEvent: {}
+[21.587741] (-) TimerEvent: {}
+[21.688755] (-) TimerEvent: {}
+[21.790074] (-) TimerEvent: {}
+[21.798239] (example_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_interfaces_control_01\x1b[0m\n'}
+[21.890766] (-) TimerEvent: {}
+[21.991393] (-) TimerEvent: {}
+[22.092022] (-) TimerEvent: {}
+[22.192552] (-) TimerEvent: {}
+[22.293140] (-) TimerEvent: {}
+[22.393709] (-) TimerEvent: {}
+[22.494341] (-) TimerEvent: {}
+[22.595575] (-) TimerEvent: {}
+[22.696130] (-) TimerEvent: {}
+[22.723485] (example_cpp) StdoutLine: {'line': b'[100%] Built target example_interfaces_control_01\n'}
+[22.743114] (example_cpp) CommandEnded: {'returncode': 0}
+[22.743675] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'install'}
+[22.752776] (example_cpp) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/lin/train2/src/build/example_cpp'], 'cwd': '/home/lin/train2/src/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lin/train2/src/install/example_ros2_interfaces/lib:/home/lin/train2/install/example_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lin/train2'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1807'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fd2b17185ebf6a12d57065468b6f12c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/train2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1807,unix/lin-virtual-machine:/tmp/.ICE-unix/1807'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c04f2e1_6e9d_48ca_87e1_fb38b12c5ce7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WPVBC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9f05dfb0a7.sock'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/install/example_py:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/example_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0fd2b17185ebf6a12d57065468b6f12c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/home/lin/train2/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_cpp:/home/lin/train2/install/example_cpp:/home/lin/train2/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/home/lin/train2/install/example_py:/opt/ros/humble')]), 'shell': False}
+[22.761313] (example_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.763507] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01\n'}
+[22.777598] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01" to ""\n'}
+[22.778221] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01\n'}
+[22.796508] (-) TimerEvent: {}
+[22.806157] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01" to ""\n'}
+[22.806649] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp\n'}
+[22.807328] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp\n'}
+[22.807499] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh\n'}
+[22.808001] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv\n'}
+[22.808481] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.sh\n'}
+[22.808872] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.dsv\n'}
+[22.809917] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.bash\n'}
+[22.810117] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.sh\n'}
+[22.810664] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.zsh\n'}
+[22.811368] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.dsv\n'}
+[22.811522] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.dsv\n'}
+[22.811672] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/packages/example_cpp\n'}
+[22.812348] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake\n'}
+[22.812505] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake\n'}
+[22.812654] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.xml\n'}
+[22.813968] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01\n'}
+[22.818824] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01" to ""\n'}
+[22.819573] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03\n'}
+[22.823804] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03" to ""\n'}
+[22.825722] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01\n'}
+[22.833023] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01" to ""\n'}
+[22.834836] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01\n'}
+[22.850832] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01" to ""\n'}
+[22.853890] (example_cpp) CommandEnded: {'returncode': 0}
+[22.895889] (example_cpp) JobEnded: {'identifier': 'example_cpp', 'rc': 0}
+[22.896599] (-) TimerEvent: {}
+[22.896757] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.960s] Invoking command in '/home/lin/train2/src/fishbot_description': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/lin/train2/src/build/fishbot_description/build install --record /home/lin/train2/src/build/fishbot_description/install.log --single-version-externally-managed install_data
+[1.307s] running egg_info
+[1.329s] writing ../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[1.330s] writing dependency_links to ../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[1.332s] writing entry points to ../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[1.332s] writing requirements to ../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[1.332s] writing top-level names to ../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[1.386s] reading manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.390s] writing manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.394s] running build
+[1.395s] running build_py
+[1.395s] copying fishbot_description/wheel.py -> /home/lin/train2/src/build/fishbot_description/build/lib/fishbot_description
+[1.395s] copying fishbot_description/__init__.py -> /home/lin/train2/src/build/fishbot_description/build/lib/fishbot_description
+[1.396s] running install
+[1.396s] running install_lib
+[1.419s] copying /home/lin/train2/src/build/fishbot_description/build/lib/fishbot_description/wheel.py -> /home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[1.420s] byte-compiling /home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/wheel.py to wheel.cpython-310.pyc
+[1.421s] running install_data
+[1.422s] copying resource/fishbot_description -> /home/lin/train2/src/install/fishbot_description/share/ament_index/resource_index/packages
+[1.422s] copying package.xml -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description
+[1.423s] copying launch/rviz2.launch.py -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description/launch
+[1.423s] copying urdf/robot_base.urdf -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description/urdf
+[1.424s] running install_egg_info
+[1.448s] removing '/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.449s] Copying ../build/fishbot_description/fishbot_description.egg-info to /home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[1.452s] running install_scripts
+[1.665s] Installing rotate_wheel script to /home/lin/train2/src/install/fishbot_description/lib/fishbot_description
+[1.666s] writing list of installed files to '/home/lin/train2/src/build/fishbot_description/install.log'
+[1.685s] Invoked command in '/home/lin/train2/src/fishbot_description' returned '0': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/lin/train2/src/build/fishbot_description/build install --record /home/lin/train2/src/build/fishbot_description/install.log --single-version-externally-managed install_data

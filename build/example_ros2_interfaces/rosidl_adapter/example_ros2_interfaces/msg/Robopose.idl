@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from example_ros2_interfaces/msg/Robopose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module example_ros2_interfaces {
+  module msg {
+    module Robopose_Constants {
+      const uint32 STATUS_MOVEING = 1;
+      const uint32 STATUS_STOP = 2;
+    };
+    struct Robopose {
+      uint32 status;
+
+      geometry_msgs::msg::Pose pose;
+    };
+  };
+};

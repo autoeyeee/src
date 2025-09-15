@@ -1,0 +1,35 @@
+[1.198s] Invoking command in '/home/lin/train2/example_py': PYTHONPATH=/home/lin/train2/example_py/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/example_py build --build-base /home/lin/train2/example_py/build/example_py/build install --record /home/lin/train2/example_py/build/example_py/install.log --single-version-externally-managed install_data
+[1.382s] /home/lin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.382s]   warnings.warn(msg)
+[1.504s] running egg_info
+[1.523s] creating build/example_py/example_py.egg-info
+[1.523s] writing build/example_py/example_py.egg-info/PKG-INFO
+[1.524s] writing dependency_links to build/example_py/example_py.egg-info/dependency_links.txt
+[1.524s] writing entry points to build/example_py/example_py.egg-info/entry_points.txt
+[1.524s] writing requirements to build/example_py/example_py.egg-info/requires.txt
+[1.525s] writing top-level names to build/example_py/example_py.egg-info/top_level.txt
+[1.525s] writing manifest file 'build/example_py/example_py.egg-info/SOURCES.txt'
+[1.570s] reading manifest file 'build/example_py/example_py.egg-info/SOURCES.txt'
+[1.571s] writing manifest file 'build/example_py/example_py.egg-info/SOURCES.txt'
+[1.571s] running build
+[1.571s] running build_py
+[1.572s] creating /home/lin/train2/example_py/build/example_py/build/lib/example_py
+[1.572s] copying example_py/__init__.py -> /home/lin/train2/example_py/build/example_py/build/lib/example_py
+[1.572s] copying example_py/node_02.py -> /home/lin/train2/example_py/build/example_py/build/lib/example_py
+[1.573s] running install
+[1.576s] running install_lib
+[1.595s] creating /home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages/example_py
+[1.595s] copying /home/lin/train2/example_py/build/example_py/build/lib/example_py/__init__.py -> /home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages/example_py
+[1.595s] copying /home/lin/train2/example_py/build/example_py/build/lib/example_py/node_02.py -> /home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages/example_py
+[1.596s] byte-compiling /home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages/example_py/__init__.py to __init__.cpython-310.pyc
+[1.597s] byte-compiling /home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages/example_py/node_02.py to node_02.cpython-310.pyc
+[1.597s] running install_data
+[1.597s] creating /home/lin/train2/example_py/install/example_py/share/ament_index/resource_index/packages
+[1.598s] copying resource/example_py -> /home/lin/train2/example_py/install/example_py/share/ament_index/resource_index/packages
+[1.598s] copying package.xml -> /home/lin/train2/example_py/install/example_py/share/example_py
+[1.598s] running install_egg_info
+[1.620s] Copying build/example_py/example_py.egg-info to /home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[1.622s] running install_scripts
+[1.798s] Installing node_02 script to /home/lin/train2/example_py/install/example_py/lib/example_py
+[1.799s] writing list of installed files to '/home/lin/train2/example_py/build/example_py/install.log'
+[1.817s] Invoked command in '/home/lin/train2/example_py' returned '0': PYTHONPATH=/home/lin/train2/example_py/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/example_py/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/example_py build --build-base /home/lin/train2/example_py/build/example_py/build install --record /home/lin/train2/example_py/build/example_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,28 @@
+[1.463s] Invoking command in '/home/lin/train2/src/example_py': PYTHONPATH=/home/lin/train2/src/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/example_py build --build-base /home/lin/train2/src/build/example_py/build install --record /home/lin/train2/src/build/example_py/install.log --single-version-externally-managed install_data
+[1.947s] running egg_info
+[1.980s] creating ../build/example_py/example_py.egg-info
+[1.981s] writing ../build/example_py/example_py.egg-info/PKG-INFO
+[1.983s] writing dependency_links to ../build/example_py/example_py.egg-info/dependency_links.txt
+[1.983s] writing entry points to ../build/example_py/example_py.egg-info/entry_points.txt
+[1.984s] writing requirements to ../build/example_py/example_py.egg-info/requires.txt
+[1.984s] writing top-level names to ../build/example_py/example_py.egg-info/top_level.txt
+[1.984s] writing manifest file '../build/example_py/example_py.egg-info/SOURCES.txt'
+[2.050s] reading manifest file '../build/example_py/example_py.egg-info/SOURCES.txt'
+[2.053s] writing manifest file '../build/example_py/example_py.egg-info/SOURCES.txt'
+[2.054s] running build
+[2.054s] running build_py
+[2.055s] creating /home/lin/train2/src/build/example_py/build/lib/example_py
+[2.055s] copying example_py/__init__.py -> /home/lin/train2/src/build/example_py/build/lib/example_py
+[2.056s] copying example_py/node_02.py -> /home/lin/train2/src/build/example_py/build/lib/example_py
+[2.060s] running install
+[2.060s] running install_lib
+[2.092s] running install_data
+[2.093s] copying resource/example_py -> /home/lin/train2/src/install/example_py/share/ament_index/resource_index/packages
+[2.093s] copying package.xml -> /home/lin/train2/src/install/example_py/share/example_py
+[2.093s] running install_egg_info
+[2.128s] removing '/home/lin/train2/src/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.129s] Copying ../build/example_py/example_py.egg-info to /home/lin/train2/src/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[2.131s] running install_scripts
+[2.421s] Installing node_02 script to /home/lin/train2/src/install/example_py/lib/example_py
+[2.423s] writing list of installed files to '/home/lin/train2/src/build/example_py/install.log'
+[2.457s] Invoked command in '/home/lin/train2/src/example_py' returned '0': PYTHONPATH=/home/lin/train2/src/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/example_py build --build-base /home/lin/train2/src/build/example_py/build install --record /home/lin/train2/src/build/example_py/install.log --single-version-externally-managed install_data

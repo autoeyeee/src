@@ -1,0 +1,8 @@
+{
+  "package_name": "example_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/lin/train2/src/example_ros2_interfaces:msg/Robopose.msg",
+    "/home/lin/train2/src/example_ros2_interfaces:msg/RobotStatus.msg",
+    "/home/lin/train2/src/example_ros2_interfaces:srv/MoveRobot.srv"
+  ]
+}

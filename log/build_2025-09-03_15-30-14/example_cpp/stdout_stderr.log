@@ -1,0 +1,56 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_ros2_interfaces: 0.0.0 (/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lin/train2/src/example_cpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/lin/train2/src/build/example_cpp
+[ 16%] Built target topic_subscribe_01
+[ 33%] Built target node_01
+[ 41%] [32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o[0m
+[ 58%] Built target topic_publisher_01
+[ 66%] [32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o[0m
+[ 83%] Built target node_03
+[ 91%] [32m[1mLinking CXX executable example_interfaces_robot_01[0m
+[ 91%] Built target example_interfaces_robot_01
+[100%] [32m[1mLinking CXX executable example_interfaces_control_01[0m
+[100%] Built target example_interfaces_control_01
+-- Install configuration: ""
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01" to ""
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01" to ""
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.sh
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.bash
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.sh
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.dsv
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.xml
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01
+-- Up-to-date: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01

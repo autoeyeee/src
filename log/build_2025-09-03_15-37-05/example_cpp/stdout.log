@@ -1,0 +1,34 @@
+[ 16%] Built target node_01
+[ 33%] Built target node_03
+[ 50%] Built target topic_subscribe_01
+[ 66%] Built target topic_publisher_01
+[ 83%] Built target example_interfaces_control_01
+[100%] Built target example_interfaces_robot_01
+-- Install configuration: ""
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01" to ""
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01" to ""
+-- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.sh
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.bash
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.sh
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.dsv
+-- Installing: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Installing: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.xml
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01" to ""
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03" to ""
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01" to ""
+-- Installing: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01
+-- Set runtime path of "/home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01" to ""

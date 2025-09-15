@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (-) JobUnselected: {'identifier': 'example_cpp'}
+[0.000299] (-) JobUnselected: {'identifier': 'example_py'}
+[0.000342] (-) JobUnselected: {'identifier': 'example_ros2_interfaces'}
+[0.000383] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.000423] (-) JobUnselected: {'identifier': 'robot_startup'}
+[0.000463] (-) EventReactorShutdown: {}
