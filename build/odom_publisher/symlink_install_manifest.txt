@@ -1,0 +1,16 @@
+/home/lin/train2/src/install/odom_publisher/lib/odom_publisher/odom_publisher
+/home/lin/train2/src/install/odom_publisher/share/ament_index/resource_index/package_run_dependencies/odom_publisher
+/home/lin/train2/src/install/odom_publisher/share/ament_index/resource_index/parent_prefix_path/odom_publisher
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/environment/ament_prefix_path.sh
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/environment/ament_prefix_path.dsv
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/environment/path.sh
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/environment/path.dsv
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/local_setup.bash
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/local_setup.sh
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/local_setup.zsh
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/local_setup.dsv
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.dsv
+/home/lin/train2/src/install/odom_publisher/share/ament_index/resource_index/packages/odom_publisher
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/cmake/odom_publisherConfig.cmake
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/cmake/odom_publisherConfig-version.cmake
+/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.xml

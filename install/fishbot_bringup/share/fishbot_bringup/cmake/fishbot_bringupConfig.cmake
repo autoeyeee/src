@@ -1,0 +1,1 @@
+/home/lin/train2/src/build/fishbot_bringup/ament_cmake_core/fishbot_bringupConfig.cmake

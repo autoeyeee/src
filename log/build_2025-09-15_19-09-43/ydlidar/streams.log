@@ -1,0 +1,29 @@
+[0.885s] Invoking command in '/home/lin/train2/src/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/ydlidar -- -j8 -l8
+[1.082s] [ 81%] Built target ydlidar_node
+[1.088s] [100%] Built target ydlidar_client
+[1.199s] Invoked command in '/home/lin/train2/src/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/ydlidar -- -j8 -l8
+[1.209s] Invoking command in '/home/lin/train2/src/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/ydlidar
+[1.238s] -- Install configuration: ""
+[1.240s] -- Execute custom install script
+[1.242s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/lib/ydlidar/ydlidar_node
+[1.244s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/lib/ydlidar/ydlidar_client
+[1.244s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[1.245s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[1.245s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[1.245s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/startup/initenv.sh
+[1.247s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[1.252s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[1.253s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[1.253s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[1.254s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/path.sh
+[1.259s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/path.dsv
+[1.260s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.bash
+[1.260s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.sh
+[1.260s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.zsh
+[1.261s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.dsv
+[1.261s] -- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/package.dsv
+[1.270s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[1.271s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[1.271s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[1.271s] -- Up-to-date symlink: /home/lin/train2/src/install/ydlidar/share/ydlidar/package.xml
+[1.321s] Invoked command in '/home/lin/train2/src/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/ydlidar

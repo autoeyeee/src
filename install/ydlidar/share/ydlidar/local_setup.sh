@@ -1,0 +1,1 @@
+/home/lin/train2/src/build/ydlidar/ament_cmake_environment_hooks/local_setup.sh

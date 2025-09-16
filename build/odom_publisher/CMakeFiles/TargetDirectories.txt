@@ -1,0 +1,10 @@
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/uninstall.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/odom_publisher_uninstall.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/odom_publisher.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/test.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/edit_cache.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/rebuild_cache.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/list_install_components.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/install.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/install/local.dir
+/home/lin/train2/src/build/odom_publisher/CMakeFiles/install/strip.dir

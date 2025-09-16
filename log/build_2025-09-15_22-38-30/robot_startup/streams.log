@@ -1,0 +1,22 @@
+[0.811s] Invoking command in '/home/lin/train2/src/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/robot_startup -- -j8 -l8
+[1.137s] Invoked command in '/home/lin/train2/src/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/robot_startup -- -j8 -l8
+[1.137s] Invoking command in '/home/lin/train2/src/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/robot_startup
+[1.138s] -- Install configuration: ""
+[1.138s] -- Execute custom install script
+[1.138s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/launch/example_action.launch.py
+[1.138s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/ament_index/resource_index/package_run_dependencies/robot_startup
+[1.138s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/ament_index/resource_index/parent_prefix_path/robot_startup
+[1.138s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/ament_prefix_path.sh
+[1.138s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/ament_prefix_path.dsv
+[1.139s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/path.sh
+[1.139s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/environment/path.dsv
+[1.139s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.bash
+[1.139s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.sh
+[1.139s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.zsh
+[1.139s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/local_setup.dsv
+[1.139s] -- Symlinking: /home/lin/train2/src/install/robot_startup/share/robot_startup/package.dsv
+[1.150s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/ament_index/resource_index/packages/robot_startup
+[1.150s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/cmake/robot_startupConfig.cmake
+[1.150s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/cmake/robot_startupConfig-version.cmake
+[1.151s] -- Up-to-date symlink: /home/lin/train2/src/install/robot_startup/share/robot_startup/package.xml
+[1.240s] Invoked command in '/home/lin/train2/src/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/robot_startup

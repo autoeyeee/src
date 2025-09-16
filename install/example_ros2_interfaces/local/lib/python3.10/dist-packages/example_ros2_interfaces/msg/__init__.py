@@ -1,2 +1,1 @@
-from example_ros2_interfaces.msg._robopose import Robopose  # noqa: F401
-from example_ros2_interfaces.msg._robot_status import RobotStatus  # noqa: F401
+/home/lin/train2/src/build/example_ros2_interfaces/rosidl_generator_py/example_ros2_interfaces/msg/__init__.py

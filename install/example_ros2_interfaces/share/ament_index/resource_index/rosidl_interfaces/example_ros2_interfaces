@@ -1,8 +1,1 @@
-msg/Robopose.idl
-msg/Robopose.msg
-msg/RobotStatus.idl
-msg/RobotStatus.msg
-srv/MoveRobot.idl
-srv/MoveRobot.srv
-srv/MoveRobot_Request.msg
-srv/MoveRobot_Response.msg
+/home/lin/train2/src/build/example_ros2_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/example_ros2_interfaces

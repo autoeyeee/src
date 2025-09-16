@@ -1,0 +1,1 @@
+/home/lin/train2/src/build/example_ros2_interfaces/rosidl_generator_py/example_ros2_interfaces/__init__.py

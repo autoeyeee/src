@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lin/train2/src/build/example_cpp/node_01" "/home/lin/train2/src/build/example_cpp/node_03" "/home/lin/train2/src/build/example_cpp/topic_publisher_01" "/home/lin/train2/src/build/example_cpp/topic_subscribe_01" "TARGETS" "node_01" "node_03" "topic_publisher_01" "topic_subscribe_01" "DESTINATION" "lib/example_cpp")

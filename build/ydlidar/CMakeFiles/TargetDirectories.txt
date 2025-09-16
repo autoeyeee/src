@@ -1,0 +1,11 @@
+/home/lin/train2/src/build/ydlidar/CMakeFiles/uninstall.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/ydlidar_uninstall.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/ydlidar_node.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/ydlidar_client.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/test.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/edit_cache.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/rebuild_cache.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/list_install_components.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/install.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/install/local.dir
+/home/lin/train2/src/build/ydlidar/CMakeFiles/install/strip.dir

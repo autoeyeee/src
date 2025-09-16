@@ -1,0 +1,25 @@
+[ 18%] Built target ydlidar_client
+[100%] Built target ydlidar_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lin/train2/src/install/ydlidar/lib/ydlidar/ydlidar_node
+-- Symlinking: /home/lin/train2/src/install/ydlidar/lib/ydlidar/ydlidar_client
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/launch/ydlidar.py
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/startup/initenv.sh
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/path.sh
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/environment/path.dsv
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.bash
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.sh
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.zsh
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/local_setup.dsv
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/package.dsv
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+-- Symlinking: /home/lin/train2/src/install/ydlidar/share/ydlidar/package.xml

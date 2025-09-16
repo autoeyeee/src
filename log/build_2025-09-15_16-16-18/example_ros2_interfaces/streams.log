@@ -1,0 +1,34 @@
+[0.139s] Invoking command in '/home/lin/train2/src/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake /home/lin/train2/src/example_ros2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/example_ros2_interfaces
+[0.793s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.793s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.793s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.793s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.209s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.498s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.548s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.549s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.549s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.664s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.700s] -- Added test 'lint_cmake' to check CMake code style
+[4.704s] -- Added test 'xmllint' to check XML markup files
+[4.710s] -- Configuring done (4.6s)
+[4.805s] -- Generating done (0.1s)
+[4.822s] -- Build files have been written to: /home/lin/train2/src/build/example_ros2_interfaces
+[4.831s] Invoked command in '/home/lin/train2/src/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake /home/lin/train2/src/example_ros2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/example_ros2_interfaces
+[4.834s] Invoking command in '/home/lin/train2/src/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/example_ros2_interfaces -- -j8 -l8
+[4.908s] [  2%] Built target example_ros2_interfaces__cpp
+[4.921s] failed to create symbolic link '/home/lin/train2/src/build/example_ros2_interfaces/ament_cmake_python/example_ros2_interfaces/example_ros2_interfaces' because existing path cannot be removed: Is a directory
+[4.922s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_example_ros2_interfaces.dir/build.make:70：CMakeFiles/ament_cmake_python_symlink_example_ros2_interfaces] 错误 1
+[4.923s] gmake[1]: *** [CMakeFiles/Makefile2:421：CMakeFiles/ament_cmake_python_symlink_example_ros2_interfaces.dir/all] 错误 2
+[4.924s] gmake[1]: *** 正在等待未完成的任务....
+[4.933s] [ 12%] Built target example_ros2_interfaces__rosidl_generator_c
+[5.002s] [ 23%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.005s] [ 34%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[5.007s] [ 44%] Built target example_ros2_interfaces__rosidl_typesupport_cpp
+[5.009s] gmake: *** [Makefile:146：all] 错误 2
+[5.011s] Invoked command in '/home/lin/train2/src/build/example_ros2_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/example_ros2_interfaces -- -j8 -l8

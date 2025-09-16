@@ -1,3 +1,1 @@
-
-# 当前的位置
-float32 pose
+/home/lin/train2/src/build/example_ros2_interfaces/rosidl_cmake/srv/MoveRobot_Response.msg

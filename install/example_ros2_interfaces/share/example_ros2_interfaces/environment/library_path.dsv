@@ -1,1 +1,1 @@
-prepend-non-duplicate;LD_LIBRARY_PATH;lib
+/home/lin/train2/src/build/example_ros2_interfaces/ament_cmake_environment_hooks/library_path.dsv

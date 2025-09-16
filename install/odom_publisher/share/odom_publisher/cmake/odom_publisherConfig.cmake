@@ -1,0 +1,1 @@
+/home/lin/train2/src/build/odom_publisher/ament_cmake_core/odom_publisherConfig.cmake

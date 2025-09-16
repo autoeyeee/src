@@ -1,2 +1,1 @@
-source;share/fishbot_cartographer/environment/ament_prefix_path.sh
-source;share/fishbot_cartographer/environment/path.sh
+/home/lin/train2/src/build/fishbot_cartographer/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,1 +1,1 @@
-from example_ros2_interfaces.srv._move_robot import MoveRobot  # noqa: F401
+/home/lin/train2/src/build/example_ros2_interfaces/rosidl_generator_py/example_ros2_interfaces/srv/__init__.py

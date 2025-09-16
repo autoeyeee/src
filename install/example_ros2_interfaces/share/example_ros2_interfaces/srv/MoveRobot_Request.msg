@@ -1,2 +1,1 @@
-# 前进后退的距离
-float32 distance
+/home/lin/train2/src/build/example_ros2_interfaces/rosidl_cmake/srv/MoveRobot_Request.msg

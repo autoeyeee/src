@@ -1,0 +1,17 @@
+[1.981s] Invoking command in '/home/lin/train2/src/build/fishbot_description': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/fishbot_description/build --no-deps symlink_data
+[2.542s] running develop
+[2.923s] running egg_info
+[2.948s] writing fishbot_description.egg-info/PKG-INFO
+[2.949s] writing dependency_links to fishbot_description.egg-info/dependency_links.txt
+[2.949s] writing entry points to fishbot_description.egg-info/entry_points.txt
+[2.950s] writing requirements to fishbot_description.egg-info/requires.txt
+[2.950s] writing top-level names to fishbot_description.egg-info/top_level.txt
+[3.003s] reading manifest file 'fishbot_description.egg-info/SOURCES.txt'
+[3.004s] writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+[3.030s] running build_ext
+[3.030s] Creating /home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot-description.egg-link (link to .)
+[3.032s] Installing rotate_wheel script to /home/lin/train2/src/install/fishbot_description/lib/fishbot_description
+[3.032s] 
+[3.033s] Installed /home/lin/train2/src/build/fishbot_description
+[3.033s] running symlink_data
+[3.060s] Invoked command in '/home/lin/train2/src/build/fishbot_description' returned '0': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/fishbot_description/build --no-deps symlink_data

@@ -1,0 +1,71 @@
+[0.489s] Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake /home/lin/train2/src/fishbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/fishbot_bringup
+[0.940s] -- The C compiler identification is GNU 11.4.0
+[0.971s] -- The CXX compiler identification is GNU 11.4.0
+[1.088s] -- Detecting C compiler ABI info
+[1.451s] -- Detecting C compiler ABI info - done
+[1.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.473s] -- Detecting C compile features
+[1.474s] -- Detecting C compile features - done
+[1.520s] -- Detecting CXX compiler ABI info
+[1.936s] -- Detecting CXX compiler ABI info - done
+[1.964s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.965s] -- Detecting CXX compile features
+[1.968s] -- Detecting CXX compile features - done
+[2.002s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.457s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.699s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.972s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.996s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.032s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.339s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.369s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.681s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.053s] -- Found Threads: TRUE  
+[4.185s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.218s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.298s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[4.361s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.745s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.965s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.965s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lin/train2/src/fishbot_bringup/include>
+[4.965s] -- Configured cppcheck exclude dirs and/or files: 
+[4.968s] -- Added test 'lint_cmake' to check CMake code style
+[4.973s] -- Added test 'uncrustify' to check C / C++ code style
+[4.973s] -- Configured uncrustify additional arguments: 
+[4.975s] -- Added test 'xmllint' to check XML markup files
+[4.982s] -- Configuring done (4.5s)
+[5.025s] -- Generating done (0.0s)
+[5.034s] -- Build files have been written to: /home/lin/train2/src/build/fishbot_bringup
+[5.049s] Invoked command in '/home/lin/train2/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake /home/lin/train2/src/fishbot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/fishbot_bringup
+[5.053s] Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_bringup -- -j8 -l8
+[5.146s] [ 50%] [32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o[0m
+[19.410s] [100%] [32m[1mLinking CXX executable fishbot_bringup[0m
+[20.198s] [100%] Built target fishbot_bringup
+[20.210s] Invoked command in '/home/lin/train2/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_bringup -- -j8 -l8
+[20.215s] Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_bringup
+[20.221s] -- Install configuration: ""
+[20.222s] -- Execute custom install script
+[20.222s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup
+[20.232s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[20.238s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[20.249s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[20.255s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[20.263s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[20.271s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[20.278s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[20.288s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[20.295s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[20.302s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[20.310s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[20.317s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[20.327s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[20.343s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[20.352s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[20.363s] Invoked command in '/home/lin/train2/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_bringup

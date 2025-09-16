@@ -1,18 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from example_ros2_interfaces/msg/RobotStatus.msg
-// generated code does not contain a copyright notice
-
-
-module example_ros2_interfaces {
-  module msg {
-    module RobotStatus_Constants {
-      const uint32 STATUS_MOVEING = 1;
-      const uint32 STATUS_STOP = 1;
-    };
-    struct RobotStatus {
-      uint32 status;
-
-      float pose;
-    };
-  };
-};
+/home/lin/train2/src/build/example_ros2_interfaces/rosidl_adapter/example_ros2_interfaces/msg/RobotStatus.idl
