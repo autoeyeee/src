@@ -1,0 +1,4 @@
+[0.445s] Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_bringup -- -j8 -l8
+[0.819s] [ 50%] [32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o[0m
+[11.779s] [100%] [32m[1mLinking CXX executable fishbot_bringup[0m
+[12.557s] [100%] Built target fishbot_bringup

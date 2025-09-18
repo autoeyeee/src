@@ -1,0 +1,23 @@
+[0.727s] Invoking command in '/home/lin/train2/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_navigation2 -- -j8 -l8
+[0.757s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.293s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.294s]   By not providing "Findnav2_bringup.cmake" in CMAKE_MODULE_PATH this project
+[1.294s]   has asked CMake to find a package configuration file provided by
+[1.294s]   "nav2_bringup", but CMake did not find one.
+[1.298s] 
+[1.298s]   Could not find a package configuration file provided by "nav2_bringup" with
+[1.300s]   any of the following names:
+[1.300s] 
+[1.300s]     nav2_bringupConfig.cmake
+[1.300s]     nav2_bringup-config.cmake
+[1.302s] 
+[1.302s]   Add the installation prefix of "nav2_bringup" to CMAKE_PREFIX_PATH or set
+[1.303s]   "nav2_bringup_DIR" to a directory containing one of the above files.  If
+[1.303s]   "nav2_bringup" provides a separate development package or SDK, be sure it
+[1.303s]   has been installed.
+[1.303s] 
+[1.303s] [0m
+[1.304s] -- Configuring incomplete, errors occurred!
+[1.320s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[1.326s] Invoked command in '/home/lin/train2/src/build/fishbot_navigation2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_navigation2 -- -j8 -l8

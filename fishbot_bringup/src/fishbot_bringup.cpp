@@ -48,7 +48,7 @@ public:
     double seconds = this->now().seconds();
     transform.header.stamp = rclcpp::Time(static_cast<uint64_t>(seconds * 1e9));
     transform.header.frame_id = "odom";
-    transform.child_frame_id = "base_footprint";
+    transform.child_frame_id = "base_link";
 
     transform.transform.translation.x = odom_msg_.pose.pose.position.x;
     transform.transform.translation.y = odom_msg_.pose.pose.position.y;

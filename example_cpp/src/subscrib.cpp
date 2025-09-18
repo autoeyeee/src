@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
     /*创建对应节点的共享指针对象*/
-    auto node = std::make_shared<TopicSubscribe01>("topic_subscribe_01");
+    auto node = std::make_shared<TopicSubscribe01>("topic_subscribe");
     /* 运行节点，并检测退出信号*/
     rclcpp::spin(node);
     rclcpp::shutdown();

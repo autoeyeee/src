@@ -1,0 +1,6 @@
+[ 16%] Built target node_01
+[ 33%] Built target node_03
+[ 50%] Built target example_interfaces_control_01
+[ 66%] Built target example_interfaces_robot_01
+[ 83%] Built target topic_publisher_01
+[100%] Built target topic_subscribe_01

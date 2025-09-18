@@ -1,0 +1,1 @@
+/home/lin/train2/src/build/ydlidar_ros2/ament_cmake_core/ydlidar_ros2Config.cmake
