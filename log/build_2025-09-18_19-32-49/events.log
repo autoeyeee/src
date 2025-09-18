@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.001895] (-) JobUnselected: {'identifier': 'example_cpp'}
+[0.002046] (-) JobUnselected: {'identifier': 'example_py'}
+[0.002140] (-) JobUnselected: {'identifier': 'example_ros2_interfaces'}
+[0.002180] (-) JobUnselected: {'identifier': 'fishbot_bringup'}
+[0.002271] (-) JobUnselected: {'identifier': 'fishbot_cartographer'}
+[0.002309] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.002389] (-) JobUnselected: {'identifier': 'fishbot_navigation2'}
+[0.002427] (-) JobUnselected: {'identifier': 'odom_publisher'}
+[0.002514] (-) JobUnselected: {'identifier': 'robot_startup'}
+[0.002551] (-) JobUnselected: {'identifier': 'ros2_laser_scan_matcher'}
+[0.002828] (-) JobUnselected: {'identifier': 'ydlidar'}
+[0.002884] (csm) JobQueued: {'identifier': 'csm', 'dependencies': OrderedDict()}
+[0.002963] (csm) JobStarted: {'identifier': 'csm'}
+[0.025023] (csm) JobProgress: {'identifier': 'csm', 'progress': 'cmake'}
+[0.026044] (csm) Command: {'cmd': ['/usr/local/bin/cmake', '/home/lin/train2/src/csm', '-DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/csm'], 'cwd': '/home/lin/train2/src/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lin/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1802,unix/lin-virtual-machine:/tmp/.ICE-unix/1802'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b97f1bca_aa28_4bb5_ad38_5117877d174e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WX01C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/sdformat_tools:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/lin/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/lin/ros_ws/build/sdformat_tools:/home/lin/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/lin/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/fishbot_description:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/example_py:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble')]), 'shell': False}
+[0.100326] (-) TimerEvent: {}
+[0.165603] (csm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200606] (-) TimerEvent: {}
+[0.298163] (csm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.301036] (-) TimerEvent: {}
+[0.338384] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401300] (-) TimerEvent: {}
+[0.492417] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.501428] (csm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.501624] (-) TimerEvent: {}
+[0.502027] (csm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.502328] (csm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.523276] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601917] (-) TimerEvent: {}
+[0.692841] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.701903] (csm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.702203] (-) TimerEvent: {}
+[0.702654] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.703279] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.718635] (csm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.802499] (-) TimerEvent: {}
+[0.903043] (-) TimerEvent: {}
+[0.956368] (csm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.003183] (-) TimerEvent: {}
+[1.103993] (-) TimerEvent: {}
+[1.204463] (-) TimerEvent: {}
+[1.220134] (csm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.304721] (-) TimerEvent: {}
+[1.390266] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.405021] (-) TimerEvent: {}
+[1.422195] (csm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.456098] (csm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.496224] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.505162] (-) TimerEvent: {}
+[1.551415] (csm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.605448] (-) TimerEvent: {}
+[1.706060] (-) TimerEvent: {}
+[1.710329] (csm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.727297] (csm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.806225] (-) TimerEvent: {}
+[1.906768] (-) TimerEvent: {}
+[1.970241] (csm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.007137] (-) TimerEvent: {}
+[2.021007] (csm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.104008] (csm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.107326] (-) TimerEvent: {}
+[2.144168] (csm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.207750] (-) TimerEvent: {}
+[2.287184] (csm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.289695] (csm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.307986] (-) TimerEvent: {}
+[2.408429] (-) TimerEvent: {}
+[2.509261] (-) TimerEvent: {}
+[2.526726] (csm) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.545979] (csm) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.552294] (csm) StdoutLine: {'line': b'-- Build files have been written to: /home/lin/train2/src/build/csm\n'}
+[2.567709] (csm) CommandEnded: {'returncode': 0}
+[2.571254] (csm) JobProgress: {'identifier': 'csm', 'progress': 'build'}
+[2.571305] (csm) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/lin/train2/src/build/csm', '--', '-j8', '-l8'], 'cwd': '/home/lin/train2/src/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lin/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1802,unix/lin-virtual-machine:/tmp/.ICE-unix/1802'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b97f1bca_aa28_4bb5_ad38_5117877d174e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WX01C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/sdformat_tools:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/lin/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/lin/ros_ws/build/sdformat_tools:/home/lin/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/lin/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/fishbot_description:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/example_py:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble')]), 'shell': False}
+[2.609477] (-) TimerEvent: {}
+[2.636423] (csm) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o\x1b[0m\n'}
+[2.637800] (csm) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o\x1b[0m\n'}
+[2.638974] (csm) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o\x1b[0m\n'}
+[2.639704] (csm) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o\x1b[0m\n'}
+[2.644492] (csm) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o\x1b[0m\n'}
+[2.644678] (csm) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o\x1b[0m\n'}
+[2.647667] (csm) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o\x1b[0m\n'}
+[2.680257] (csm) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o\x1b[0m\n'}
+[2.711044] (-) TimerEvent: {}
+[2.811609] (-) TimerEvent: {}
+[2.912203] (-) TimerEvent: {}
+[3.012882] (-) TimerEvent: {}
+[3.116888] (-) TimerEvent: {}
+[3.217365] (-) TimerEvent: {}
+[3.318065] (-) TimerEvent: {}
+[3.418538] (-) TimerEvent: {}
+[3.519212] (-) TimerEvent: {}
+[3.622134] (-) TimerEvent: {}
+[3.726050] (-) TimerEvent: {}
+[3.826464] (-) TimerEvent: {}
+[3.926974] (-) TimerEvent: {}
+[4.027492] (-) TimerEvent: {}
+[4.127902] (-) TimerEvent: {}
+[4.228694] (-) TimerEvent: {}
+[4.329553] (-) TimerEvent: {}
+[4.430608] (-) TimerEvent: {}
+[4.533067] (-) TimerEvent: {}
+[4.634079] (-) TimerEvent: {}
+[4.734775] (-) TimerEvent: {}
+[4.835602] (-) TimerEvent: {}
+[4.936901] (-) TimerEvent: {}
+[5.042385] (-) TimerEvent: {}
+[5.116483] (csm) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o\x1b[0m\n'}
+[5.142563] (-) TimerEvent: {}
+[5.230343] (csm) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o\x1b[0m\n'}
+[5.237393] (csm) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o\x1b[0m\n'}
+[5.241529] (csm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o\x1b[0m\n'}
+[5.246466] (-) TimerEvent: {}
+[5.258147] (csm) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o\x1b[0m\n'}
+[5.262738] (csm) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o\x1b[0m\n'}
+[5.348582] (-) TimerEvent: {}
+[5.349383] (csm) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o\x1b[0m\n'}
+[5.444194] (csm) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o\x1b[0m\n'}
+[5.449682] (-) TimerEvent: {}
+[5.551150] (-) TimerEvent: {}
+[5.656687] (-) TimerEvent: {}
+[5.757615] (-) TimerEvent: {}
+[5.858542] (-) TimerEvent: {}
+[5.959657] (-) TimerEvent: {}
+[6.062400] (-) TimerEvent: {}
+[6.168088] (-) TimerEvent: {}
+[6.269534] (-) TimerEvent: {}
+[6.372068] (-) TimerEvent: {}
+[6.472902] (-) TimerEvent: {}
+[6.501966] (csm) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o\x1b[0m\n'}
+[6.582865] (-) TimerEvent: {}
+[6.665454] (csm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o\x1b[0m\n'}
+[6.683082] (-) TimerEvent: {}
+[6.783510] (-) TimerEvent: {}
+[6.845353] (csm) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o\x1b[0m\n'}
+[6.886035] (-) TimerEvent: {}
+[6.918115] (csm) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o\x1b[0m\n'}
+[6.986217] (-) TimerEvent: {}
+[7.076524] (csm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o\x1b[0m\n'}
+[7.086629] (-) TimerEvent: {}
+[7.187062] (-) TimerEvent: {}
+[7.213879] (csm) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o\x1b[0m\n'}
+[7.287254] (-) TimerEvent: {}
+[7.388412] (-) TimerEvent: {}
+[7.491610] (-) TimerEvent: {}
+[7.592321] (-) TimerEvent: {}
+[7.693071] (-) TimerEvent: {}
+[7.754104] (csm) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o\x1b[0m\n'}
+[7.793412] (-) TimerEvent: {}
+[7.894834] (-) TimerEvent: {}
+[7.996562] (-) TimerEvent: {}
+[8.098541] (-) TimerEvent: {}
+[8.200391] (-) TimerEvent: {}
+[8.301739] (-) TimerEvent: {}
+[8.402719] (-) TimerEvent: {}
+[8.503355] (-) TimerEvent: {}
+[8.604130] (-) TimerEvent: {}
+[8.704829] (-) TimerEvent: {}
+[8.805643] (-) TimerEvent: {}
+[8.906251] (-) TimerEvent: {}
+[9.006770] (-) TimerEvent: {}
+[9.107310] (-) TimerEvent: {}
+[9.208097] (-) TimerEvent: {}
+[9.308615] (-) TimerEvent: {}
+[9.409278] (-) TimerEvent: {}
+[9.509882] (-) TimerEvent: {}
+[9.610663] (-) TimerEvent: {}
+[9.711274] (-) TimerEvent: {}
+[9.811815] (-) TimerEvent: {}
+[9.912560] (-) TimerEvent: {}
+[10.013231] (-) TimerEvent: {}
+[10.113848] (-) TimerEvent: {}
+[10.214491] (-) TimerEvent: {}
+[10.315145] (-) TimerEvent: {}
+[10.415634] (-) TimerEvent: {}
+[10.516423] (-) TimerEvent: {}
+[10.617061] (-) TimerEvent: {}
+[10.717521] (-) TimerEvent: {}
+[10.818063] (-) TimerEvent: {}
+[10.918682] (-) TimerEvent: {}
+[11.019280] (-) TimerEvent: {}
+[11.119777] (-) TimerEvent: {}
+[11.220447] (-) TimerEvent: {}
+[11.321183] (-) TimerEvent: {}
+[11.421747] (-) TimerEvent: {}
+[11.522319] (-) TimerEvent: {}
+[11.622823] (-) TimerEvent: {}
+[11.723507] (-) TimerEvent: {}
+[11.824177] (-) TimerEvent: {}
+[11.925096] (-) TimerEvent: {}
+[12.025876] (-) TimerEvent: {}
+[12.126717] (-) TimerEvent: {}
+[12.227619] (-) TimerEvent: {}
+[12.328496] (-) TimerEvent: {}
+[12.429370] (-) TimerEvent: {}
+[12.530797] (-) TimerEvent: {}
+[12.631594] (-) TimerEvent: {}
+[12.732241] (-) TimerEvent: {}
+[12.833113] (-) TimerEvent: {}
+[12.934030] (-) TimerEvent: {}
+[13.034856] (-) TimerEvent: {}
+[13.135417] (-) TimerEvent: {}
+[13.236111] (-) TimerEvent: {}
+[13.336757] (-) TimerEvent: {}
+[13.437372] (-) TimerEvent: {}
+[13.538071] (-) TimerEvent: {}
+[13.638608] (-) TimerEvent: {}
+[13.739122] (-) TimerEvent: {}
+[13.839806] (-) TimerEvent: {}
+[13.940376] (-) TimerEvent: {}
+[14.041097] (-) TimerEvent: {}
+[14.141599] (-) TimerEvent: {}
+[14.242358] (-) TimerEvent: {}
+[14.343052] (-) TimerEvent: {}
+[14.443687] (-) TimerEvent: {}
+[14.544446] (-) TimerEvent: {}
+[14.645074] (-) TimerEvent: {}
+[14.745648] (-) TimerEvent: {}
+[14.846183] (-) TimerEvent: {}
+[14.946677] (-) TimerEvent: {}
+[15.047379] (-) TimerEvent: {}
+[15.148042] (-) TimerEvent: {}
+[15.248587] (-) TimerEvent: {}
+[15.349245] (-) TimerEvent: {}
+[15.449838] (-) TimerEvent: {}
+[15.551113] (-) TimerEvent: {}
+[15.651637] (-) TimerEvent: {}
+[15.752366] (-) TimerEvent: {}
+[15.853433] (-) TimerEvent: {}
+[15.954332] (-) TimerEvent: {}
+[16.055536] (-) TimerEvent: {}
+[16.156196] (-) TimerEvent: {}
+[16.256853] (-) TimerEvent: {}
+[16.357578] (-) TimerEvent: {}
+[16.458457] (-) TimerEvent: {}
+[16.559150] (-) TimerEvent: {}
+[16.659776] (-) TimerEvent: {}
+[16.760454] (-) TimerEvent: {}
+[16.861038] (-) TimerEvent: {}
+[16.961608] (-) TimerEvent: {}
+[17.062320] (-) TimerEvent: {}
+[17.162810] (-) TimerEvent: {}
+[17.263639] (-) TimerEvent: {}
+[17.364216] (-) TimerEvent: {}
+[17.464752] (-) TimerEvent: {}
+[17.565534] (-) TimerEvent: {}
+[17.666043] (-) TimerEvent: {}
+[17.766554] (-) TimerEvent: {}
+[17.854552] (csm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcsm.so\x1b[0m\n'}
+[17.866881] (-) TimerEvent: {}
+[17.967446] (-) TimerEvent: {}
+[18.068289] (-) TimerEvent: {}
+[18.169108] (-) TimerEvent: {}
+[18.269843] (-) TimerEvent: {}
+[18.370755] (-) TimerEvent: {}
+[18.471659] (-) TimerEvent: {}
+[18.572215] (-) TimerEvent: {}
+[18.580163] (csm) StdoutLine: {'line': b'[100%] Built target csm\n'}
+[18.591828] (csm) CommandEnded: {'returncode': 0}
+[18.592853] (csm) JobProgress: {'identifier': 'csm', 'progress': 'install'}
+[18.601682] (csm) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/lin/train2/src/build/csm'], 'cwd': '/home/lin/train2/src/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lin/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1802,unix/lin-virtual-machine:/tmp/.ICE-unix/1802'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b97f1bca_aa28_4bb5_ad38_5117877d174e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WX01C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/sdformat_tools:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/lin/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/csm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/lin/ros_ws/build/sdformat_tools:/home/lin/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/lin/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/fishbot_description:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/example_py:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble')]), 'shell': False}
+[18.607901] (csm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.608401] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/lib/libcsm.so\n'}
+[18.629834] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include\n'}
+[18.630352] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/gsl_eigen\n'}
+[18.630489] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/gsl_eigen/gsl_eigen.h\n'}
+[18.630611] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/csm\n'}
+[18.630981] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/csm/laser_data_inline.h\n'}
+[18.631117] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/csm/algos.h\n'}
+[18.631376] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/csm/restrict.h\n'}
+[18.631803] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/csm/laser_data.h\n'}
+[18.631915] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/..//include/csm/csm.h\n'}
+[18.632414] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/resource\n'}
+[18.632569] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/resource/csm\n'}
+[18.632694] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/../gsl_eigen\n'}
+[18.632998] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/include/../gsl_eigen/gsl_eigen.h\n'}
+[18.633256] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/environment/library_path.sh\n'}
+[18.633365] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/environment/library_path.dsv\n'}
+[18.633752] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/ament_index/resource_index/package_run_dependencies/csm\n'}
+[18.634435] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/ament_index/resource_index/parent_prefix_path/csm\n'}
+[18.634589] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/environment/ament_prefix_path.sh\n'}
+[18.635126] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/environment/ament_prefix_path.dsv\n'}
+[18.635292] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/environment/path.sh\n'}
+[18.635615] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/environment/path.dsv\n'}
+[18.635734] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/local_setup.bash\n'}
+[18.635843] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/local_setup.sh\n'}
+[18.636332] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/local_setup.zsh\n'}
+[18.636472] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/local_setup.dsv\n'}
+[18.637001] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/package.dsv\n'}
+[18.637361] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/ament_index/resource_index/packages/csm\n'}
+[18.637480] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.637844] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.638242] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.638372] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/cmake/csmConfig.cmake\n'}
+[18.638796] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/cmake/csmConfig-version.cmake\n'}
+[18.638991] (csm) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/csm/share/csm/package.xml\n'}
+[18.641128] (csm) CommandEnded: {'returncode': 0}
+[18.667455] (csm) JobEnded: {'identifier': 'csm', 'rc': 0}
+[18.669133] (-) EventReactorShutdown: {}

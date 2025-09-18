@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (-) JobUnselected: {'identifier': 'csm'}
+[0.000387] (-) JobUnselected: {'identifier': 'example_cpp'}
+[0.000451] (-) JobUnselected: {'identifier': 'example_py'}
+[0.000491] (-) JobUnselected: {'identifier': 'example_ros2_interfaces'}
+[0.000532] (-) JobUnselected: {'identifier': 'fishbot_bringup'}
+[0.000584] (-) JobUnselected: {'identifier': 'fishbot_cartographer'}
+[0.000624] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.000685] (-) JobUnselected: {'identifier': 'fishbot_navigation2'}
+[0.000737] (-) JobUnselected: {'identifier': 'odom_publisher'}
+[0.000778] (-) JobUnselected: {'identifier': 'robot_startup'}
+[0.000986] (-) JobUnselected: {'identifier': 'ydlidar'}
+[0.001111] (ros2_laser_scan_matcher) JobQueued: {'identifier': 'ros2_laser_scan_matcher', 'dependencies': OrderedDict([('csm', '/home/lin/train2/src/install/csm')])}
+[0.002491] (ros2_laser_scan_matcher) JobStarted: {'identifier': 'ros2_laser_scan_matcher'}
+[0.033928] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'cmake'}
+[0.035262] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/local/bin/cmake', '/home/lin/train2/src/ros2_laser_scan_matcher', '-DCMAKE_INSTALL_PREFIX=/home/lin/train2/src/install/ros2_laser_scan_matcher'], 'cwd': '/home/lin/train2/src/build/ros2_laser_scan_matcher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/train2/src/install/csm/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lin/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1802,unix/lin-virtual-machine:/tmp/.ICE-unix/1802'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b97f1bca_aa28_4bb5_ad38_5117877d174e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WX01C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/sdformat_tools:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/lin/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/ros2_laser_scan_matcher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/lin/ros_ws/build/sdformat_tools:/home/lin/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/lin/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/fishbot_description:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/example_py:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble')]), 'shell': False}
+[0.099572] (-) TimerEvent: {}
+[0.152164] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199872] (-) TimerEvent: {}
+[0.269165] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.300218] (-) TimerEvent: {}
+[0.307519] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400450] (-) TimerEvent: {}
+[0.460057] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.470109] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.470587] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.471008] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.493751] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500659] (-) TimerEvent: {}
+[0.601242] (-) TimerEvent: {}
+[0.674621] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.683404] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.683948] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.684313] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.698873] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701496] (-) TimerEvent: {}
+[0.802024] (-) TimerEvent: {}
+[0.902508] (-) TimerEvent: {}
+[0.935020] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002776] (-) TimerEvent: {}
+[1.103424] (-) TimerEvent: {}
+[1.195281] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.203686] (-) TimerEvent: {}
+[1.304400] (-) TimerEvent: {}
+[1.335586] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.363221] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.397827] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.405376] (-) TimerEvent: {}
+[1.441765] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.502329] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.505641] (-) TimerEvent: {}
+[1.606333] (-) TimerEvent: {}
+[1.646844] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.706774] (-) TimerEvent: {}
+[1.800013] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.807002] (-) TimerEvent: {}
+[1.814287] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.907410] (-) TimerEvent: {}
+[2.008797] (-) TimerEvent: {}
+[2.064578] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.109302] (-) TimerEvent: {}
+[2.118526] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.209535] (-) TimerEvent: {}
+[2.210354] (ros2_laser_scan_matcher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.251612] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.309778] (-) TimerEvent: {}
+[2.402968] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.405645] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.410001] (-) TimerEvent: {}
+[2.508088] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.510260] (-) TimerEvent: {}
+[2.562167] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.610970] (-) TimerEvent: {}
+[2.711740] (-) TimerEvent: {}
+[2.812644] (-) TimerEvent: {}
+[2.913172] (-) TimerEvent: {}
+[2.927968] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.997446] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.001924] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.002181] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.011949] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.0") \n'}
+[3.013408] (-) TimerEvent: {}
+[3.015676] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found csm: 0.0.0 (/home/lin/train2/src/install/csm/share/csm/cmake)\n'}
+[3.096495] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[3.113667] (-) TimerEvent: {}
+[3.203769] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.214013] (-) TimerEvent: {}
+[3.249557] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.256825] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Build files have been written to: /home/lin/train2/src/build/ros2_laser_scan_matcher\n'}
+[3.271955] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 0}
+[3.275171] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'build'}
+[3.275249] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/lin/train2/src/build/ros2_laser_scan_matcher', '--', '-j8', '-l8'], 'cwd': '/home/lin/train2/src/build/ros2_laser_scan_matcher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/train2/src/install/csm/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lin/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1802,unix/lin-virtual-machine:/tmp/.ICE-unix/1802'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b97f1bca_aa28_4bb5_ad38_5117877d174e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WX01C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/sdformat_tools:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/lin/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/ros2_laser_scan_matcher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/lin/ros_ws/build/sdformat_tools:/home/lin/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/lin/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/fishbot_description:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/example_py:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble')]), 'shell': False}
+[3.314396] (-) TimerEvent: {}
+[3.345511] (ros2_laser_scan_matcher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_scan_matcher.dir/src/laser_scan_matcher.cpp.o\x1b[0m\n'}
+[3.414616] (-) TimerEvent: {}
+[3.515248] (-) TimerEvent: {}
+[3.615925] (-) TimerEvent: {}
+[3.716534] (-) TimerEvent: {}
+[3.817048] (-) TimerEvent: {}
+[3.917688] (-) TimerEvent: {}
+[4.018201] (-) TimerEvent: {}
+[4.119280] (-) TimerEvent: {}
+[4.219990] (-) TimerEvent: {}
+[4.320591] (-) TimerEvent: {}
+[4.403934] (ros2_laser_scan_matcher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lin/train2/src/ros2_laser_scan_matcher/include/ros2_laser_scan_matcher/laser_scan_matcher.h:47\x1b[m\x1b[K,\n'}
+[4.404292] (ros2_laser_scan_matcher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lin/train2/src/ros2_laser_scan_matcher/src/laser_scan_matcher.cpp:38\x1b[m\x1b[K:\n'}
+[4.404424] (ros2_laser_scan_matcher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.404538] (ros2_laser_scan_matcher) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[4.404650] (ros2_laser_scan_matcher) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.420814] (-) TimerEvent: {}
+[4.521397] (-) TimerEvent: {}
+[4.622026] (-) TimerEvent: {}
+[4.722541] (-) TimerEvent: {}
+[4.823221] (-) TimerEvent: {}
+[4.923766] (-) TimerEvent: {}
+[5.024325] (-) TimerEvent: {}
+[5.124964] (-) TimerEvent: {}
+[5.225542] (-) TimerEvent: {}
+[5.326404] (-) TimerEvent: {}
+[5.426950] (-) TimerEvent: {}
+[5.527507] (-) TimerEvent: {}
+[5.627988] (-) TimerEvent: {}
+[5.728570] (-) TimerEvent: {}
+[5.829158] (-) TimerEvent: {}
+[5.929657] (-) TimerEvent: {}
+[6.030340] (-) TimerEvent: {}
+[6.130869] (-) TimerEvent: {}
+[6.231511] (-) TimerEvent: {}
+[6.332000] (-) TimerEvent: {}
+[6.432600] (-) TimerEvent: {}
+[6.533096] (-) TimerEvent: {}
+[6.633989] (-) TimerEvent: {}
+[6.734775] (-) TimerEvent: {}
+[6.835255] (-) TimerEvent: {}
+[6.935725] (-) TimerEvent: {}
+[7.036204] (-) TimerEvent: {}
+[7.136686] (-) TimerEvent: {}
+[7.237265] (-) TimerEvent: {}
+[7.337720] (-) TimerEvent: {}
+[7.438248] (-) TimerEvent: {}
+[7.538903] (-) TimerEvent: {}
+[7.639427] (-) TimerEvent: {}
+[7.739956] (-) TimerEvent: {}
+[7.840517] (-) TimerEvent: {}
+[7.940992] (-) TimerEvent: {}
+[8.041528] (-) TimerEvent: {}
+[8.142030] (-) TimerEvent: {}
+[8.242650] (-) TimerEvent: {}
+[8.343264] (-) TimerEvent: {}
+[8.443719] (-) TimerEvent: {}
+[8.544265] (-) TimerEvent: {}
+[8.644793] (-) TimerEvent: {}
+[8.745386] (-) TimerEvent: {}
+[8.845966] (-) TimerEvent: {}
+[8.946615] (-) TimerEvent: {}
+[9.047216] (-) TimerEvent: {}
+[9.148388] (-) TimerEvent: {}
+[9.248977] (-) TimerEvent: {}
+[9.349679] (-) TimerEvent: {}
+[9.450259] (-) TimerEvent: {}
+[9.550780] (-) TimerEvent: {}
+[9.651288] (-) TimerEvent: {}
+[9.751997] (-) TimerEvent: {}
+[9.852609] (-) TimerEvent: {}
+[9.953165] (-) TimerEvent: {}
+[10.053770] (-) TimerEvent: {}
+[10.154285] (-) TimerEvent: {}
+[10.254852] (-) TimerEvent: {}
+[10.355611] (-) TimerEvent: {}
+[10.457015] (-) TimerEvent: {}
+[10.557507] (-) TimerEvent: {}
+[10.658080] (-) TimerEvent: {}
+[10.758771] (-) TimerEvent: {}
+[10.859297] (-) TimerEvent: {}
+[10.959912] (-) TimerEvent: {}
+[11.060974] (-) TimerEvent: {}
+[11.161665] (-) TimerEvent: {}
+[11.262230] (-) TimerEvent: {}
+[11.363289] (-) TimerEvent: {}
+[11.463793] (-) TimerEvent: {}
+[11.564292] (-) TimerEvent: {}
+[11.664900] (-) TimerEvent: {}
+[11.765679] (-) TimerEvent: {}
+[11.866277] (-) TimerEvent: {}
+[11.966981] (-) TimerEvent: {}
+[12.067818] (-) TimerEvent: {}
+[12.168403] (-) TimerEvent: {}
+[12.268879] (-) TimerEvent: {}
+[12.369591] (-) TimerEvent: {}
+[12.470097] (-) TimerEvent: {}
+[12.570619] (-) TimerEvent: {}
+[12.671342] (-) TimerEvent: {}
+[12.772176] (-) TimerEvent: {}
+[12.872811] (-) TimerEvent: {}
+[12.973310] (-) TimerEvent: {}
+[13.073967] (-) TimerEvent: {}
+[13.174610] (-) TimerEvent: {}
+[13.275210] (-) TimerEvent: {}
+[13.375871] (-) TimerEvent: {}
+[13.476445] (-) TimerEvent: {}
+[13.577024] (-) TimerEvent: {}
+[13.677560] (-) TimerEvent: {}
+[13.778124] (-) TimerEvent: {}
+[13.878627] (-) TimerEvent: {}
+[13.979299] (-) TimerEvent: {}
+[14.079880] (-) TimerEvent: {}
+[14.180669] (-) TimerEvent: {}
+[14.281135] (-) TimerEvent: {}
+[14.381748] (-) TimerEvent: {}
+[14.482256] (-) TimerEvent: {}
+[14.582722] (-) TimerEvent: {}
+[14.683220] (-) TimerEvent: {}
+[14.783972] (-) TimerEvent: {}
+[14.884681] (-) TimerEvent: {}
+[14.985199] (-) TimerEvent: {}
+[15.085793] (-) TimerEvent: {}
+[15.186363] (-) TimerEvent: {}
+[15.286937] (-) TimerEvent: {}
+[15.387599] (-) TimerEvent: {}
+[15.488098] (-) TimerEvent: {}
+[15.588867] (-) TimerEvent: {}
+[15.689462] (-) TimerEvent: {}
+[15.790216] (-) TimerEvent: {}
+[15.890835] (-) TimerEvent: {}
+[15.991522] (-) TimerEvent: {}
+[16.092174] (-) TimerEvent: {}
+[16.192716] (-) TimerEvent: {}
+[16.293292] (-) TimerEvent: {}
+[16.393803] (-) TimerEvent: {}
+[16.494327] (-) TimerEvent: {}
+[16.594842] (-) TimerEvent: {}
+[16.695564] (-) TimerEvent: {}
+[16.796120] (-) TimerEvent: {}
+[16.896660] (-) TimerEvent: {}
+[16.997243] (-) TimerEvent: {}
+[17.097721] (-) TimerEvent: {}
+[17.198362] (-) TimerEvent: {}
+[17.273706] (ros2_laser_scan_matcher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser_scan_matcher\x1b[0m\n'}
+[17.298573] (-) TimerEvent: {}
+[17.399112] (-) TimerEvent: {}
+[17.500444] (-) TimerEvent: {}
+[17.600955] (-) TimerEvent: {}
+[17.701527] (-) TimerEvent: {}
+[17.802047] (-) TimerEvent: {}
+[17.902646] (-) TimerEvent: {}
+[18.003278] (-) TimerEvent: {}
+[18.103751] (-) TimerEvent: {}
+[18.204217] (-) TimerEvent: {}
+[18.214455] (ros2_laser_scan_matcher) StdoutLine: {'line': b'[100%] Built target laser_scan_matcher\n'}
+[18.223910] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 0}
+[18.225947] (ros2_laser_scan_matcher) JobProgress: {'identifier': 'ros2_laser_scan_matcher', 'progress': 'install'}
+[18.233773] (ros2_laser_scan_matcher) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/lin/train2/src/build/ros2_laser_scan_matcher'], 'cwd': '/home/lin/train2/src/build/ros2_laser_scan_matcher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/train2/src/install/csm/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1802'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lin/train2/src/install:/home/lin/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lin/ros_ws/install/sdformat_tools/bin:/opt/ros/humble/bin:/home/lin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/1802,unix/lin-virtual-machine:/tmp/.ICE-unix/1802'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b97f1bca_aa28_4bb5_ad38_5117877d174e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WX01C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/sdformat_tools:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/train2/src/install/example_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/lin/ros_ws/install/rmoss_gz_plugins/plugins'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/train2/src/build/ros2_laser_scan_matcher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SDF_PATH', '/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/worlds:/home/lin/ros_ws/install/rmu_gazebo_simulator/share/rmu_gazebo_simulator/resource/models:/home/lin/ros_ws/install/pb2025_robot_description/share/pb2025_robot_description/resource/models:/home/lin/ros_ws/install/rmoss_gz_resources/share/rmoss_gz_resources/resource/models'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=29e67e88c9a79606de4aaade68cad812'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '3.3'), ('PYTHONPATH', '/home/lin/ros_ws/build/sdformat_tools:/home/lin/ros_ws/install/sdformat_tools/lib/python3.10/site-packages:/home/lin/ros_ws/install/rmoss_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/fishbot_description:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:/home/lin/train2/src/install/example_ros2_interfaces/local/lib/python3.10/dist-packages:/home/lin/train2/src/build/example_py:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble')]), 'shell': False}
+[18.240330] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.240538] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher\n'}
+[18.254043] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Set runtime path of "/home/lin/train2/src/install/ros2_laser_scan_matcher/lib/ros2_laser_scan_matcher/laser_scan_matcher" to ""\n'}
+[18.254558] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_matcher\n'}
+[18.254731] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_matcher\n'}
+[18.255142] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.sh\n'}
+[18.255409] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/ament_prefix_path.dsv\n'}
+[18.255726] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.sh\n'}
+[18.256022] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/environment/path.dsv\n'}
+[18.256347] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.bash\n'}
+[18.256596] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.sh\n'}
+[18.256970] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.zsh\n'}
+[18.257190] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/local_setup.dsv\n'}
+[18.257588] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv\n'}
+[18.257841] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ament_index/resource_index/packages/ros2_laser_scan_matcher\n'}
+[18.258102] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig.cmake\n'}
+[18.258555] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/cmake/ros2_laser_scan_matcherConfig-version.cmake\n'}
+[18.258840] (ros2_laser_scan_matcher) StdoutLine: {'line': b'-- Installing: /home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.xml\n'}
+[18.260569] (ros2_laser_scan_matcher) CommandEnded: {'returncode': 0}
+[18.281697] (ros2_laser_scan_matcher) JobEnded: {'identifier': 'ros2_laser_scan_matcher', 'rc': 0}
+[18.282737] (-) EventReactorShutdown: {}
