@@ -1,0 +1,7 @@
+[01m[K/home/lin/train2/src/ros2_laser_scan_matcher/src/laser_scan_matcher.cpp:[m[K In constructor ‘[01m[Kscan_tools::LaserScanMatcher::LaserScanMatcher()[m[K’:
+[01m[K/home/lin/train2/src/ros2_laser_scan_matcher/src/laser_scan_matcher.cpp:81:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPa[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   81 |   add_parameter("kf_dist_linear", rclcpp::[01;31m[KPa[m[K  rameterValue(0.10),
+      |                                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/laser_scan_matcher.dir/build.make:76：CMakeFiles/laser_scan_matcher.dir/src/laser_scan_matcher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/laser_scan_matcher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

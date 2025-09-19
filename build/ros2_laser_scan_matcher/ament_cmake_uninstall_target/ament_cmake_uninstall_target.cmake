@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/lin/train2/src/build/ros2_laser_scan_matcher/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

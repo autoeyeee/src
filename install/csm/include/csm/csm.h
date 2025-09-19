@@ -1,7 +1,1 @@
-#ifndef H_CSM_H
-#define H_CSM_H
-
-#include <csm/laser_data.h>
-#include <csm/algos.h>
-
-#endif
+/home/lin/train2/src/csm/include/csm/csm.h

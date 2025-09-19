@@ -1,0 +1,850 @@
+[0.084s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.084s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7afff92623e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7afff934feb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7afff934feb0>>)
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.113s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lin/train2/src'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(csm) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'csm' with type 'ros.ament_cmake' and name 'csm'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(example_cpp) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'example_cpp' with type 'ros.ament_cmake' and name 'example_cpp'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(example_py) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'example_py' with type 'ros.ament_python' and name 'example_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(example_ros2_interfaces) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'example_ros2_interfaces' with type 'ros.ament_cmake' and name 'example_ros2_interfaces'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_bringup' with type 'ros.ament_cmake' and name 'fishbot_bringup'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_cartographer' with type 'ros.ament_cmake' and name 'fishbot_cartographer'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(odom_publisher) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'odom_publisher' with type 'ros.ament_cmake' and name 'odom_publisher'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_laser_scan_matcher) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_laser_scan_matcher' with type 'ros.ament_cmake' and name 'ros2_laser_scan_matcher'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_startup) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_startup' with type 'ros.ament_cmake' and name 'robot_startup'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2' with type 'ros.ament_cmake' and name 'ydlidar'
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/lin/train2/src/install
+[0.155s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/lin/ros_ws/install
+[0.157s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'csm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/csm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/csm', 'merge_install': False, 'path': '/home/lin/train2/src/csm', 'symlink_install': True, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'example_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/example_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/example_py', 'merge_install': False, 'path': '/home/lin/train2/src/example_py', 'symlink_install': True, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'example_ros2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'example_ros2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/example_ros2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/example_ros2_interfaces', 'merge_install': False, 'path': '/home/lin/train2/src/example_ros2_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/fishbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/fishbot_bringup', 'merge_install': False, 'path': '/home/lin/train2/src/fishbot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/fishbot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/fishbot_cartographer', 'merge_install': False, 'path': '/home/lin/train2/src/fishbot_cartographer', 'symlink_install': True, 'test_result_base': None}
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.191s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/fishbot_description', 'merge_install': False, 'path': '/home/lin/train2/src/fishbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.191s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/lin/train2/src/fishbot_navigation2', 'symlink_install': True, 'test_result_base': None}
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'odom_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'odom_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/odom_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/odom_publisher', 'merge_install': False, 'path': '/home/lin/train2/src/odom_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot_startup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'robot_startup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/robot_startup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/robot_startup', 'merge_install': False, 'path': '/home/lin/train2/src/src/robot_startup', 'symlink_install': True, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/ydlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/ydlidar', 'merge_install': False, 'path': '/home/lin/train2/src/ydlidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'example_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'example_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/example_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/example_cpp', 'merge_install': False, 'path': '/home/lin/train2/src/example_cpp', 'symlink_install': True, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/train2/src/build/ros2_laser_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/train2/src/install/ros2_laser_scan_matcher', 'merge_install': False, 'path': '/home/lin/train2/src/ros2_laser_scan_matcher', 'symlink_install': True, 'test_result_base': None}
+[0.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/csm' with build type 'ament_cmake'
+[0.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/csm'
+[0.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/example_ros2_interfaces' with build type 'ament_cmake'
+[0.203s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/example_ros2_interfaces'
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lin/train2/src/example_py' with build type 'ament_python'
+[0.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_py', 'ament_prefix_path')
+[0.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_py/share/example_py/hook/ament_prefix_path.ps1'
+[0.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_py/share/example_py/hook/ament_prefix_path.dsv'
+[0.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_py/share/example_py/hook/ament_prefix_path.sh'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/fishbot_bringup' with build type 'ament_cmake'
+[0.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/fishbot_bringup'
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/fishbot_cartographer' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/fishbot_cartographer'
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lin/train2/src/fishbot_description' with build type 'ament_python'
+[0.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'ament_prefix_path')
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.ps1'
+[0.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.dsv'
+[0.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.sh'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/fishbot_navigation2' with build type 'ament_cmake'
+[0.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/fishbot_navigation2'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/odom_publisher' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/odom_publisher'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/csm -- -j8 -l8
+[0.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/example_ros2_interfaces -- -j8 -l8
+[0.460s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lin/train2/src/example_py'
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_bringup -- -j8 -l8
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_cartographer -- -j8 -l8
+[0.636s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lin/train2/src/fishbot_description'
+[0.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_navigation2 -- -j8 -l8
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/odom_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/odom_publisher -- -j8 -l8
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/example_ros2_interfaces -- -j8 -l8
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/example_ros2_interfaces
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_cartographer -- -j8 -l8
+[0.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_cartographer
+[0.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/csm -- -j8 -l8
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/csm
+[0.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_bringup -- -j8 -l8
+[0.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_bringup
+[0.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_cartographer)
+[0.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_navigation2 -- -j8 -l8
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_navigation2
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_cartographer
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer' for CMake module files
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer' for CMake config files
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/bin'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/lib/python3.10/site-packages'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/bin'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[0.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[0.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_cartographer)
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer' for CMake module files
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer' for CMake config files
+[0.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/bin'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/lib/python3.10/site-packages'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_cartographer/bin'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[0.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[0.729s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/src/robot_startup' with build type 'ament_cmake'
+[0.729s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/src/robot_startup'
+[0.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm' for CMake module files
+[0.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/csm
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/lib'
+[0.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/bin'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/lib/pkgconfig/csm.pc'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/lib/python3.10/site-packages'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/bin'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/csm/share/csm/package.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.bash'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.zsh'
+[0.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/csm/share/colcon-core/packages/csm)
+[0.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm' for CMake module files
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm' for CMake config files
+[0.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[0.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/lib'
+[0.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[0.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/bin'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/lib/pkgconfig/csm.pc'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/lib/python3.10/site-packages'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/csm/bin'
+[0.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/csm/share/csm/package.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.sh'
+[0.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.bash'
+[0.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/csm/share/csm/package.zsh'
+[0.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/csm/share/colcon-core/packages/csm)
+[0.759s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/ydlidar_ros2' with build type 'ament_cmake'
+[0.759s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/ydlidar_ros2'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_bringup)
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_bringup
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup' for CMake module files
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup' for CMake config files
+[0.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_bringup', 'cmake_prefix_path')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.dsv'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.sh'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/lib'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/bin'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/lib/pkgconfig/fishbot_bringup.pc'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/lib/python3.10/site-packages'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/bin'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.sh'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.bash'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.zsh'
+[0.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/fishbot_bringup/share/colcon-core/packages/fishbot_bringup)
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_bringup)
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup' for CMake module files
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup' for CMake config files
+[0.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_bringup', 'cmake_prefix_path')
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.sh'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/lib'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/bin'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/lib/pkgconfig/fishbot_bringup.pc'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/lib/python3.10/site-packages'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_bringup/bin'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.ps1'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.sh'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.bash'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.zsh'
+[0.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/fishbot_bringup/share/colcon-core/packages/fishbot_bringup)
+[0.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_navigation2
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2' for CMake module files
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2' for CMake config files
+[0.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/bin'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/lib/python3.10/site-packages'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/bin'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[0.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[0.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2' for CMake module files
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2' for CMake config files
+[0.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/bin'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/lib/python3.10/site-packages'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_navigation2/bin'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[0.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[0.798s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/ros2_laser_scan_matcher' with build type 'ament_cmake'
+[0.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/ros2_laser_scan_matcher'
+[0.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/odom_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/odom_publisher -- -j8 -l8
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/odom_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/odom_publisher
+[0.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_ros2_interfaces)
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces' for CMake module files
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces' for CMake config files
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/example_ros2_interfaces
+[0.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'cmake_prefix_path')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.sh'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/lib'
+[0.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'ld_library_path_lib')
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.sh'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/bin'
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/lib/pkgconfig/example_ros2_interfaces.pc'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/lib/python3.10/site-packages'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/bin'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.sh'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.bash'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.zsh'
+[0.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/example_ros2_interfaces/share/colcon-core/packages/example_ros2_interfaces)
+[0.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_ros2_interfaces)
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces' for CMake module files
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces' for CMake config files
+[0.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'cmake_prefix_path')
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/cmake_prefix_path.sh'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/lib'
+[0.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_ros2_interfaces', 'ld_library_path_lib')
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/hook/ld_library_path_lib.sh'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/bin'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/lib/pkgconfig/example_ros2_interfaces.pc'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/lib/python3.10/site-packages'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_ros2_interfaces/bin'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.ps1'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.sh'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.bash'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_ros2_interfaces/share/example_ros2_interfaces/package.zsh'
+[0.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/example_ros2_interfaces/share/colcon-core/packages/example_ros2_interfaces)
+[0.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/train2/src/example_cpp' with build type 'ament_cmake'
+[0.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/train2/src/example_cpp'
+[0.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/robot_startup -- -j8 -l8
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/ydlidar -- -j8 -l8
+[0.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_publisher)
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher' for CMake module files
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher' for CMake config files
+[0.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_publisher', 'cmake_prefix_path')
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/hook/cmake_prefix_path.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/hook/cmake_prefix_path.dsv'
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/hook/cmake_prefix_path.sh'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/lib'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/bin'
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/odom_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/odom_publisher
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/lib/pkgconfig/odom_publisher.pc'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/lib/python3.10/site-packages'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/bin'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.sh'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.bash'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.zsh'
+[0.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/odom_publisher/share/colcon-core/packages/odom_publisher)
+[0.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_publisher)
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher' for CMake module files
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher' for CMake config files
+[0.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_publisher', 'cmake_prefix_path')
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/hook/cmake_prefix_path.ps1'
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/hook/cmake_prefix_path.dsv'
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/hook/cmake_prefix_path.sh'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/lib'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/bin'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/lib/pkgconfig/odom_publisher.pc'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/lib/python3.10/site-packages'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/odom_publisher/bin'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.ps1'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.dsv'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.sh'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.bash'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/odom_publisher/share/odom_publisher/package.zsh'
+[0.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/odom_publisher/share/colcon-core/packages/odom_publisher)
+[0.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/csm/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/lin/train2/src/build/ros2_laser_scan_matcher -- -j8 -l8
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/example_cpp': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/example_ros2_interfaces/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/lin/train2/src/build/example_cpp -- -j8 -l8
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/robot_startup -- -j8 -l8
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/robot_startup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/robot_startup
+[0.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_startup)
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup' for CMake module files
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup' for CMake config files
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/robot_startup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/robot_startup
+[0.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_startup', 'cmake_prefix_path')
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/robot_startup/share/robot_startup/hook/cmake_prefix_path.ps1'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/robot_startup/share/robot_startup/hook/cmake_prefix_path.dsv'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/robot_startup/share/robot_startup/hook/cmake_prefix_path.sh'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/bin'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/lib/pkgconfig/robot_startup.pc'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/lib/python3.10/site-packages'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/bin'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.sh'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.bash'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.zsh'
+[0.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/robot_startup/share/colcon-core/packages/robot_startup)
+[0.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_startup)
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup' for CMake module files
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup' for CMake config files
+[0.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_startup', 'cmake_prefix_path')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/robot_startup/share/robot_startup/hook/cmake_prefix_path.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/robot_startup/share/robot_startup/hook/cmake_prefix_path.dsv'
+[0.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/robot_startup/share/robot_startup/hook/cmake_prefix_path.sh'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/bin'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/lib/pkgconfig/robot_startup.pc'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/lib/python3.10/site-packages'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/robot_startup/bin'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.sh'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.bash'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/robot_startup/share/robot_startup/package.zsh'
+[0.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/robot_startup/share/colcon-core/packages/robot_startup)
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/ydlidar -- -j8 -l8
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/ydlidar
+[0.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar)
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar' for CMake module files
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar' for CMake config files
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar', 'cmake_prefix_path')
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.ps1'
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/ydlidar
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.sh'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/lib'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/bin'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/lib/pkgconfig/ydlidar.pc'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/lib/python3.10/site-packages'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/bin'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.sh'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.bash'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.zsh'
+[0.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/ydlidar/share/colcon-core/packages/ydlidar)
+[0.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar)
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar' for CMake module files
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar' for CMake config files
+[0.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar', 'cmake_prefix_path')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/lib'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/lib/pkgconfig/ydlidar.pc'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/lib/python3.10/site-packages'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ydlidar/bin'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ydlidar/share/ydlidar/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/ydlidar/share/colcon-core/packages/ydlidar)
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/example_ros2_interfaces/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/lin/train2/src/build/example_cpp -- -j8 -l8
+[0.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/example_cpp': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/example_ros2_interfaces/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/lin/train2/src/build/example_cpp
+[0.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_cpp)
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp' for CMake module files
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/example_ros2_interfaces/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/lin/train2/src/build/example_cpp
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp' for CMake config files
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_cpp', 'cmake_prefix_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.dsv'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.sh'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/lib'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/bin'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/lib/pkgconfig/example_cpp.pc'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/lib/python3.10/site-packages'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/bin'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.sh'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.bash'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.zsh'
+[1.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/example_cpp/share/colcon-core/packages/example_cpp)
+[1.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_cpp)
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp' for CMake module files
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp' for CMake config files
+[1.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_cpp', 'cmake_prefix_path')
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_cpp/share/example_cpp/hook/cmake_prefix_path.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/lib'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/bin'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/lib/pkgconfig/example_cpp.pc'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/lib/python3.10/site-packages'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_cpp/bin'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.sh'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.bash'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_cpp/share/example_cpp/package.zsh'
+[1.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/example_cpp/share/colcon-core/packages/example_cpp)
+[1.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/example_py': PYTHONPATH=/home/lin/train2/src/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/example_py/build --no-deps symlink_data
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/fishbot_description': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/fishbot_description/build --no-deps symlink_data
+[1.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'pythonpath_develop')
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/fishbot_description' returned '0': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/fishbot_description/build --no-deps symlink_data
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/build/fishbot_description/share/fishbot_description/hook/pythonpath_develop.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/build/fishbot_description/share/fishbot_description/hook/pythonpath_develop.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/build/fishbot_description/share/fishbot_description/hook/pythonpath_develop.sh'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_description' for CMake module files
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_description' for CMake config files
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_description/lib'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_description/bin'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages'
+[1.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'pythonpath')
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/hook/pythonpath.ps1'
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/hook/pythonpath.dsv'
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/hook/pythonpath.sh'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/fishbot_description/bin'
+[1.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[1.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/package.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/package.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/package.sh'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/package.bash'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/fishbot_description/share/fishbot_description/package.zsh'
+[1.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[1.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_py', 'pythonpath_develop')
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/build/example_py/share/example_py/hook/pythonpath_develop.ps1'
+[1.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/example_py' returned '0': PYTHONPATH=/home/lin/train2/src/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/example_py/build --no-deps symlink_data
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/build/example_py/share/example_py/hook/pythonpath_develop.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/build/example_py/share/example_py/hook/pythonpath_develop.sh'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_py' for CMake module files
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_py' for CMake config files
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_py/lib'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_py/bin'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_py/lib/pkgconfig/example_py.pc'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_py/lib/python3.10/site-packages'
+[1.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_py', 'pythonpath')
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_py/share/example_py/hook/pythonpath.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/example_py/share/example_py/hook/pythonpath.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/example_py/share/example_py/hook/pythonpath.sh'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/example_py/bin'
+[1.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_py)
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_py/share/example_py/package.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/example_py/share/example_py/package.dsv'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_py/share/example_py/package.sh'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_py/share/example_py/package.bash'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/example_py/share/example_py/package.zsh'
+[1.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/example_py/share/colcon-core/packages/example_py)
+[11.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/csm/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --build /home/lin/train2/src/build/ros2_laser_scan_matcher -- -j8 -l8
+[11.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/train2/src/build/ros2_laser_scan_matcher': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/csm/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/lin/train2/src/build/ros2_laser_scan_matcher
+[11.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[11.369s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher' for CMake module files
+[11.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/train2/src/build/ros2_laser_scan_matcher' returned '0': CMAKE_PREFIX_PATH=/home/lin/train2/src/install/csm:/home/lin/ros_ws/install/rmu_gazebo_simulator:/home/lin/ros_ws/install/pb2025_robot_description:/home/lin/ros_ws/install/rmoss_core:/home/lin/ros_ws/install/rmoss_cam:/home/lin/ros_ws/install/rmoss_util:/home/lin/ros_ws/install/rmoss_projectile_motion:/home/lin/ros_ws/install/rmoss_gz_cam:/home/lin/ros_ws/install/rmoss_gz_bridge:/home/lin/ros_ws/install/rmoss_gz_base:/home/lin/ros_ws/install/rmoss_base:/home/lin/ros_ws/install/rmoss_interfaces:/home/lin/ros_ws/install/rmoss_gz_resources:/home/lin/ros_ws/install/rmoss_gz_plugins:/home/lin/train2/src/install/ydlidar_ros2:/home/lin/train2/src/install/ydlidar:/home/lin/train2/src/install/ros2_laser_scan_matcher:/home/lin/train2/src/install/robot_startup:/home/lin/train2/src/install/odom_publisher:/home/lin/train2/src/install/fishbot_navigation2:/home/lin/train2/src/install/fishbot_cartographer:/home/lin/train2/src/install/fishbot_bringup:/home/lin/train2/src/install/example_cpp:/home/lin/train2/src/install/example_ros2_interfaces:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/train2/src/install/csm/lib:/home/lin/ros_ws/install/rmoss_cam/lib:/home/lin/ros_ws/install/rmoss_util/lib:/home/lin/ros_ws/install/rmoss_projectile_motion/lib:/home/lin/ros_ws/install/rmoss_gz_cam/lib:/home/lin/ros_ws/install/rmoss_gz_base/lib:/home/lin/ros_ws/install/rmoss_base/lib:/home/lin/ros_ws/install/rmoss_interfaces/lib:/home/lin/train2/src/install/example_ros2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/local/bin/cmake --install /home/lin/train2/src/build/ros2_laser_scan_matcher
+[11.371s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher' for CMake config files
+[11.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[11.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[11.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[11.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[11.378s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/lib'
+[11.378s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/bin'
+[11.379s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[11.379s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/lib/python3.10/site-packages'
+[11.380s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/bin'
+[11.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[11.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[11.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[11.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[11.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[11.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[11.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[11.390s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher' for CMake module files
+[11.392s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher' for CMake config files
+[11.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[11.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[11.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[11.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[11.398s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/lib'
+[11.398s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/bin'
+[11.398s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[11.399s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/lib/python3.10/site-packages'
+[11.399s] Level 1:colcon.colcon_core.environment:checking '/home/lin/train2/src/install/ros2_laser_scan_matcher/bin'
+[11.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[11.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[11.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[11.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[11.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/train2/src/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[11.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/train2/src/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[11.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.409s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.426s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.427s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/train2/src/install/local_setup.ps1'
+[11.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lin/train2/src/install/_local_setup_util_ps1.py'
+[11.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/train2/src/install/setup.ps1'
+[11.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/train2/src/install/local_setup.sh'
+[11.475s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lin/train2/src/install/_local_setup_util_sh.py'
+[11.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/train2/src/install/setup.sh'
+[11.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/train2/src/install/local_setup.bash'
+[11.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/train2/src/install/setup.bash'
+[11.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/train2/src/install/local_setup.zsh'
+[11.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/train2/src/install/setup.zsh'
