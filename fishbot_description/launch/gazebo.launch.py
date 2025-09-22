@@ -27,14 +27,13 @@ def generate_launch_description():
         arguments=[urdf_model_path]
     )
 
-    # Launch RViz
-    # start_rviz_cmd = Node(
-    #     package='rviz2',
-    #     executable='rviz2',
-    #     name='rviz2',
-    #     output='screen',
-        # arguments=['-d', default_rviz_config_path]
-        #)
+    #Launch RViz
+    start_rviz_cmd = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        )
 
 
     # Launch the robot
@@ -51,6 +50,6 @@ def generate_launch_description():
     ld.add_action(start_gazebo_cmd)
     ld.add_action(spawn_entity_cmd)
     ld.add_action(start_robot_state_publisher_cmd)
-    #ld.add_action(start_rviz_cmd)
+    ld.add_action(start_rviz_cmd)
     ld.add_action(start_keyboard_cmd)
     return ld

@@ -4,7 +4,7 @@ from launch import LaunchDescription
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
-
+import launch_ros
 
 def generate_launch_description():
     # 定位到功能包的地址
@@ -42,7 +42,13 @@ def generate_launch_description():
         output='screen',
         parameters=[{'use_sim_time': use_sim_time}],
         arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec])
-
+    robot_localization_node = launch_ros.actions.Node(
+       package='robot_localization',
+       executable='ekf_node',
+       name='ekf_filter_node',
+       output='screen',
+       parameters=[os.path.join(pkg_share, 'config/ekf.yaml'), {'use_sim_time': use_sim_time }]
+    )   
     # rviz_node = Node(
     #     package='rviz2',
     #     executable='rviz2',
@@ -56,5 +62,5 @@ def generate_launch_description():
     ld.add_action(cartographer_node)
     ld.add_action(cartographer_occupancy_grid_node)
     #ld.add_action(rviz_node)
-
+    ld.add_action(robot_localization_node)
     return ld

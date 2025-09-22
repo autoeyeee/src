@@ -1,0 +1,23 @@
+[0.752s] Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_bringup -- -j8 -l8
+[2.161s] [100%] Built target fishbot_bringup
+[2.271s] Invoked command in '/home/lin/train2/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_bringup -- -j8 -l8
+[2.297s] Invoking command in '/home/lin/train2/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_bringup
+[2.376s] -- Install configuration: ""
+[2.377s] -- Execute custom install script
+[2.377s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup
+[2.388s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[2.392s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[2.392s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[2.412s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[2.419s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[2.431s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[2.432s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[2.479s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[2.479s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[2.480s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[2.480s] -- Symlinking: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[2.613s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[2.614s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[2.632s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[2.633s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[2.685s] Invoked command in '/home/lin/train2/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_bringup

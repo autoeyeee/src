@@ -1,0 +1,29 @@
+[0.894s] Invoking command in '/home/lin/train2/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_navigation2 -- -j8 -l8
+[1.132s] Invoked command in '/home/lin/train2/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/fishbot_navigation2 -- -j8 -l8
+[1.133s] Invoking command in '/home/lin/train2/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_navigation2
+[1.172s] -- Install configuration: ""
+[1.174s] -- Execute custom install script
+[1.174s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/acml.launch.py
+[1.179s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/launch.py
+[1.181s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/param/acml.yaml
+[1.181s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot_nav2.yaml
+[1.181s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.pgm
+[1.181s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.yaml
+[1.181s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/my_map.pgm
+[1.181s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/my_map.yaml
+[1.182s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[1.182s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[1.183s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[1.184s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[1.184s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[1.184s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[1.184s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[1.185s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[1.186s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[1.186s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[1.186s] -- Symlinking: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[1.201s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[1.202s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[1.202s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[1.202s] -- Up-to-date symlink: /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[1.364s] Invoked command in '/home/lin/train2/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --install /home/lin/train2/src/build/fishbot_navigation2

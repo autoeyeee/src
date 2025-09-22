@@ -1,0 +1,37 @@
+[ 16%] Built target topic_subscribe_01
+[ 33%] Built target topic_publisher_01
+[ 41%] [32mBuilding CXX object CMakeFiles/node_03.dir/src/node_03.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/example_interfaces_control_01.dir/src/example_interfaces_control_01.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/example_interfaces_robot_01.dir/src/example_interfaces_robot_01.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/cpp.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable node_03[0m
+[ 83%] [32m[1mLinking CXX executable node_01[0m
+[ 83%] Built target node_03
+[ 83%] Built target node_01
+[ 91%] [32m[1mLinking CXX executable example_interfaces_robot_01[0m
+[ 91%] Built target example_interfaces_robot_01
+[100%] [32m[1mLinking CXX executable example_interfaces_control_01[0m
+[100%] Built target example_interfaces_control_01
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_robot_01
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/lib/example_cpp/example_interfaces_control_01
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.sh
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.bash
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.sh
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Symlinking: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.dsv
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/share/example_cpp/package.xml
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_01
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/lib/example_cpp/node_03
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_publisher_01
+-- Up-to-date symlink: /home/lin/train2/src/install/example_cpp/lib/example_cpp/topic_subscribe_01

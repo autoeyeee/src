@@ -1,0 +1,17 @@
+[2.622s] Invoking command in '/home/lin/train2/src/build/example_py': PYTHONPATH=/home/lin/train2/src/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/example_py/build --no-deps symlink_data
+[3.201s] running develop
+[3.597s] running egg_info
+[3.625s] writing example_py.egg-info/PKG-INFO
+[3.626s] writing dependency_links to example_py.egg-info/dependency_links.txt
+[3.628s] writing entry points to example_py.egg-info/entry_points.txt
+[3.629s] writing requirements to example_py.egg-info/requires.txt
+[3.629s] writing top-level names to example_py.egg-info/top_level.txt
+[3.682s] reading manifest file 'example_py.egg-info/SOURCES.txt'
+[3.685s] writing manifest file 'example_py.egg-info/SOURCES.txt'
+[3.717s] running build_ext
+[3.718s] Creating /home/lin/train2/src/install/example_py/lib/python3.10/site-packages/example-py.egg-link (link to .)
+[3.719s] Installing node_02 script to /home/lin/train2/src/install/example_py/lib/example_py
+[3.720s] 
+[3.720s] Installed /home/lin/train2/src/build/example_py
+[3.721s] running symlink_data
+[3.751s] Invoked command in '/home/lin/train2/src/build/example_py' returned '0': PYTHONPATH=/home/lin/train2/src/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/example_py/build --no-deps symlink_data
