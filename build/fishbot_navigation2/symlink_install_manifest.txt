@@ -1,7 +1,7 @@
 /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/acml.launch.py
 /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/launch.py
-/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/param/acml.yaml
 /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/param/fishbot_nav2.yaml
+/home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/param/nav2_param.yaml
 /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.pgm
 /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/fishbot_map.yaml
 /home/lin/train2/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/my_map.pgm
