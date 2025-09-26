@@ -1,0 +1,2 @@
+[0.186s] Invoking command in '/home/lin/train2/src/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/csm -- -j8 -l8
+[0.884s] [100%] Built target csm

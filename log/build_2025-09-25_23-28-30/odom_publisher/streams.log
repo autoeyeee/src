@@ -1,0 +1,4 @@
+[1.088s] Invoking command in '/home/lin/train2/src/build/odom_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/odom_publisher -- -j8 -l8
+[1.290s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_publisher.dir/src/odom_publisher.cpp.o[0m
+[10.537s] [100%] [32m[1mLinking CXX executable odom_publisher[0m
+[11.177s] [100%] Built target odom_publisher

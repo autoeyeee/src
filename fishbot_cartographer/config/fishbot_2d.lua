@@ -10,7 +10,7 @@ options = {
   published_frame = "odom",
   odom_frame = "odom",
   -- true改为false，不用提供里程计数据
-  provide_odom_frame = false,
+  provide_odom_frame = true,
   -- false改为true，仅发布2D位资
   publish_frame_projected_to_2d = true,
   -- false改为true，使用里程计数据

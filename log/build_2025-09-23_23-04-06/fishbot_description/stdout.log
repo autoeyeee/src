@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating fishbot_description.egg-info
+writing fishbot_description.egg-info/PKG-INFO
+writing dependency_links to fishbot_description.egg-info/dependency_links.txt
+writing entry points to fishbot_description.egg-info/entry_points.txt
+writing requirements to fishbot_description.egg-info/requires.txt
+writing top-level names to fishbot_description.egg-info/top_level.txt
+writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+reading manifest file 'fishbot_description.egg-info/SOURCES.txt'
+writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot-description.egg-link (link to .)
+Installing rotate_wheel script to /home/lin/train2/src/install/fishbot_description/lib/fishbot_description
+
+Installed /home/lin/train2/src/build/fishbot_description
+running symlink_data
+creating /home/lin/train2/src/install/fishbot_description/share/ament_index/resource_index/packages
+symbolically linking /home/lin/train2/src/build/fishbot_description/resource/fishbot_description -> /home/lin/train2/src/install/fishbot_description/share/ament_index/resource_index/packages
+symbolically linking /home/lin/train2/src/build/fishbot_description/package.xml -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description
+creating /home/lin/train2/src/install/fishbot_description/share/fishbot_description/launch
+symbolically linking /home/lin/train2/src/build/fishbot_description/launch/rviz2.launch.py -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description/launch
+symbolically linking /home/lin/train2/src/build/fishbot_description/launch/gazebo.launch.py -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description/launch
+creating /home/lin/train2/src/install/fishbot_description/share/fishbot_description/urdf
+symbolically linking /home/lin/train2/src/build/fishbot_description/urdf/robot_base.urdf -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description/urdf
+creating /home/lin/train2/src/install/fishbot_description/share/fishbot_description/world
+symbolically linking /home/lin/train2/src/build/fishbot_description/world/fishbot.world -> /home/lin/train2/src/install/fishbot_description/share/fishbot_description/world

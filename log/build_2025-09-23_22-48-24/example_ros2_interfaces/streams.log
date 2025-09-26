@@ -1,0 +1,23 @@
+[0.176s] Invoking command in '/home/lin/train2/src/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lin/ros_ws/install/sdformat_tools:/home/lin/train2/src/install/fishbot_description:/home/lin/train2/src/install/example_py:/opt/ros/humble /usr/local/bin/cmake --build /home/lin/train2/src/build/example_ros2_interfaces -- -j8 -l8
+[0.863s] [  2%] Built target example_ros2_interfaces__cpp
+[0.863s] [ 12%] Built target example_ros2_interfaces__rosidl_generator_c
+[0.863s] [ 12%] Built target ament_cmake_python_symlink_example_ros2_interfaces
+[0.865s] [ 23%] Built target example_ros2_interfaces__rosidl_typesupport_cpp
+[0.866s] [ 34%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.866s] [ 44%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[0.866s] [ 55%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[0.866s] [ 65%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c
+[0.866s] [ 76%] Built target example_ros2_interfaces__rosidl_typesupport_c
+[0.866s] [ 76%] Built target example_ros2_interfaces
+[0.868s] [ 78%] Built target example_ros2_interfaces__py
+[0.868s] [ 87%] Built target example_ros2_interfaces__rosidl_generator_py
+[0.868s] [ 91%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.868s] [ 95%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.868s] [100%] Built target example_ros2_interfaces__rosidl_typesupport_c__pyext
+[0.870s] running egg_info
+[0.871s] writing example_ros2_interfaces.egg-info/PKG-INFO
+[0.871s] writing dependency_links to example_ros2_interfaces.egg-info/dependency_links.txt
+[0.871s] writing top-level names to example_ros2_interfaces.egg-info/top_level.txt
+[0.871s] reading manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'
+[0.875s] writing manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'
+[0.876s] [100%] Built target ament_cmake_python_build_example_ros2_interfaces_egg

@@ -1,0 +1,18 @@
+[3.427s] Invoking command in '/home/lin/train2/src/build/fishbot_description': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/fishbot_description/build --no-deps symlink_data
+[4.483s] running develop
+[5.348s] running egg_info
+[5.391s] writing fishbot_description.egg-info/PKG-INFO
+[5.391s] writing dependency_links to fishbot_description.egg-info/dependency_links.txt
+[5.397s] writing entry points to fishbot_description.egg-info/entry_points.txt
+[5.397s] writing requirements to fishbot_description.egg-info/requires.txt
+[5.397s] writing top-level names to fishbot_description.egg-info/top_level.txt
+[5.490s] reading manifest file 'fishbot_description.egg-info/SOURCES.txt'
+[5.491s] writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+[5.546s] running build_ext
+[5.546s] Creating /home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot-description.egg-link (link to .)
+[5.550s] Installing rotate_wheel script to /home/lin/train2/src/install/fishbot_description/lib/fishbot_description
+[5.551s] 
+[5.555s] Installed /home/lin/train2/src/build/fishbot_description
+[5.555s] running symlink_data
+[5.555s] error: can't copy '/home/lin/train2/src/build/fishbot_description/world/fishbot.world': doesn't exist or not a regular file
+[5.595s] Invoked command in '/home/lin/train2/src/build/fishbot_description' returned '1': PYTHONPATH=/home/lin/train2/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lin/train2/src/build/fishbot_description/build --no-deps symlink_data

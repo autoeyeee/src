@@ -13,7 +13,7 @@ def generate_launch_description():
 
     pkg_share = FindPackageShare(package=package_name).find(package_name) 
     urdf_model_path = os.path.join(pkg_share, f'urdf/{urdf_name}')
-    gazebo_world_path = os.path.join(pkg_share, 'world/wall.world')
+    gazebo_world_path = os.path.join(pkg_share, 'world/fishbot.world')
 
     # 声明启动参数
     declare_use_sim_time = DeclareLaunchArgument(
@@ -34,7 +34,7 @@ def generate_launch_description():
 
     # Start Gazebo server
     start_gazebo_cmd = ExecuteProcess(
-        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
+        cmd=['gazebo', '--verbose','-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so',gazebo_world_path],
         output='screen')
         
     # Start Robot State publisher

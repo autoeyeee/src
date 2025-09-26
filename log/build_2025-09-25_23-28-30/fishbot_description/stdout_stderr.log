@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing fishbot_description.egg-info/PKG-INFO
+writing dependency_links to fishbot_description.egg-info/dependency_links.txt
+writing entry points to fishbot_description.egg-info/entry_points.txt
+writing requirements to fishbot_description.egg-info/requires.txt
+writing top-level names to fishbot_description.egg-info/top_level.txt
+reading manifest file 'fishbot_description.egg-info/SOURCES.txt'
+writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lin/train2/src/install/fishbot_description/lib/python3.10/site-packages/fishbot-description.egg-link (link to .)
+Installing rotate_wheel script to /home/lin/train2/src/install/fishbot_description/lib/fishbot_description
+
+Installed /home/lin/train2/src/build/fishbot_description
+running symlink_data
+error: can't copy '/home/lin/train2/src/build/fishbot_description/world/fishbot.world': doesn't exist or not a regular file
